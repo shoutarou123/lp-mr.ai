@@ -6,9 +6,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ミスターAI | 株式会社taiziii（タイジー） </title>
   <meta name="description" content="">
+  <link rel="stylesheet" href="./css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <section class="fv">
+    <nav class="navigation">
+      <ul class="navigation_list">
+        <li class="navigation_list_item">
+          <a class="navigation_link">料金
+            <img class="right_arrow" src="./img/sp/right-arrow.png"
+              srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
+          </a>
+        </li>
+        <li class="navigation_list_item">
+          <a class="navigation_link">活用事例
+            <img class="right_arrow" src="./img/sp/right-arrow.png"
+              srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
+
+          </a>
+        </li>
+        <li class="navigation_list_item">
+          <a class="navigation_link">サービス導入までの流れ
+            <img class="right_arrow" src="./img/sp/right-arrow.png"
+              srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
+          </a>
+        </li>
+        <li class="navigation_list_item">
+          <a class="navigation_link">よくあるご質問
+            <img class="right_arrow" src="./img/sp/right-arrow.png"
+              srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
+          </a>
+        </li>
+        <div class="sp_contact_button_content">
+          <img src="./img/sp/sp-contact-button.png"
+            srcset="./img/sp/sp-contact-button@2x.png 2x, ./img/sp/sp-contact-button.png 1x">
+        </div>
+      </ul>
+    </nav>
+
+    <header id="header">
+      <div class="header_content">
+        <div class="logo_content">
+          <img class="pc_logo_img" src="./img/pc/logo.png" srcset="./img/pc/logo@2x.png 2x, ./img/pc/logo.png 1x"
+            width="188" height="22" alt="ミスターAI">
+          <img class="sp_logo_img" src="./img/sp/sp-logo.png"
+            srcset="./img/sp/sp-logo@2x.png 2x, ./img/sp/sp-logo.png 1x" width="188" height="22" alt="ミスターAI">
+        </div>
+        <img class="hamburger_close" id="hamburgerCloseBtn" src="./img/pc/hamburger-close.png" alt="ハンバーガーメニューClose">
+        <img class="hamburger_open hidden" id="hamburgerOpenBtn" src="./img/pc/hamburger-open.png" alt="ハンバーガーメニューOpen">
+        <nav class="header_menu_nav">
+          <ul class="header_menu_ul">
+            <li>
+              <a href="">料金</a>
+            </li>
+            <li><a href="">活用事例</a></li>
+            <li><a href="">サービス導入までの流れ</a></li>
+            <li><a href="">よくあるご質問</a></li>
+            <li>
+              <a href="">
+                <img src="./img/pc/contact-button.png"
+                  srcset="./img/pc/contact-button@2x.png 2x, ./img/pc/contact-button.png 1x" width="200" height="80"
+                  alt="お問い合わせボタン">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="fv_content_flex">
+      <div class="fv_left_content">
+        <img class="pc_fukidashi_img" src="./img/pc/fukidashi.png"
+          srcset="./img/pc/fukidashi@2x.png 2x, ./img/pc/fukidashi.png 1x" width="620" height="180"
+          alt="AIで、もう残業ゼロにできるって本当？">
+        <img class="sp_fukidashi_img" src="./img/sp/sp-fukidashi.png"
+          srcset="./img/sp/sp-fukidashi@2x.png 2x, ./img/sp/sp-fukidashi.png 1x" alt="AIで、もう残業ゼロにできるって本当？">
+        <div class="fukidashi_bottom_content">
+          <div class="fukidashi_bottom_text_top_content">
+            <p class="fukidashi_bottom_text">業務のムダを月504.2時間削減</p>
+            <span class="kome">※</span>
+          </div>
+          <p class="fukidashi_bottom_text center">利益を生むAI活用をワンストップ支援</p>
+          <p class="fukidashi_bottom_text bottom">※おおよそ正社員3人分の稼働時間に相当</p>
+        </div>
+        <div class="icon_rectangle_content">
+          <img class="pc_icon_text" src="./img/pc/icon-text-left.png"
+            srcset="./img/pc/icon-text-left@2x.png 2x, ./img/pc/icon-text-left.png 1x" width="190" height="234"
+            alt="月額 10万円～ 初月最大 10万円割引">
+          <img class="sp_icon_text" src="./img/sp/sp-icon-text-left.png"
+            srcset="./img/sp/sp-icon-text-left@2x.png 2x, ./img/sp/sp-icon-text-left.png 1x" width="190" height="234"
+            alt="月額 10万円～ 初月最大 10万円割引">
+          <img class="pc_icon_text" src="./img/pc/icon-text-center.png"
+            srcset="./img/pc/icon-text-center@2x.png 2x, ./img/pc/icon-text-center.png 1x" width="190" height="234"
+            alt="部門・業務ごとに 最適化 経理・営業・マーケ・人事対応">
+          <img class="sp_icon_text" src="./img/sp/sp-icon-text-center.png"
+            srcset="./img/sp/sp-icon-text-center@2x.png 2x, ./img/sp/sp-icon-text-center.png 1x" width="190"
+            height="234" alt="部門・業務ごとに 最適化 経理・営業・マーケ・人事対応">
+          <img class="pc_icon_text" src="./img/pc/icon-text-right.png"
+            srcset="./img/pc/icon-text-right@2x.png 2x, ./img/pc/icon-text-right.png 1x" width="190" height="234"
+            alt="導入から定着まで 完全伴走 サポート体制万全">
+          <img class="sp_icon_text" src="./img/sp/sp-icon-text-right.png"
+            srcset="./img/sp/sp-icon-text-right@2x.png 2x, ./img/sp/sp-icon-text-right.png 1x" width="190" height="234"
+            alt="導入から定着まで 完全伴走 サポート体制万全">
+        </div>
+      </div>
+      <div class="fv_right_content">
+        <img src="./img/pc/fv-right.png" srcset="./img/pc/fv-right@2x.png 2x, ./img/pc/fv-right.png 1x" width="678"
+          height="538" alt="経理部門：月末残業ゼロ 営業部門：商談時間2倍 マーケティング部門：集客作業90％削減 人事部門：採用工数半減 経営者：利益率向上＆意思決定スピードUP">
+      </div>
+    </div>
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./js/hamburger-menu.js"></script>
 </body>
 
 </html>
