@@ -118,8 +118,25 @@
           height="538" alt="経理部門：月末残業ゼロ 営業部門：商談時間2倍 マーケティング部門：集客作業90％削減 人事部門：採用工数半減 経営者：利益率向上＆意思決定スピードUP">
       </div>
     </div>
-
   </section>
+
+  <section class="cta">
+    <div class="cta_content">
+      <a href="">
+        <img src="./img/pc/cta.png" srcset="./img/pc/cta@2x.png 2x, ./img/pc/cta.png 1x" width="1100" height="170"
+        alt="AI活用はじめようキャンペーン 無料相談のお問い合わせはカンタン30秒で完了 今だけ！ 初月最大10万円割引 今すぐ特典を受け取る">
+        <img 
+          class="sp_cta"
+          src="./img/sp/sp-cta.png"
+          srcset="./img/sp/sp-cta@2x.png 2x, ./img/sp/sp-cta.png 1x"
+          width="1000"
+          height="539"
+          alt="AI活用はじめようキャンペーン 無料相談のお問い合わせはカンタン30秒で完了 今だけ！ 初月最大10万円割引 今すぐ特典を受け取る"
+        >
+      </a> 
+    </div>
+  </section>
+
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./js/hamburger-menu.js"></script>
 </body>
