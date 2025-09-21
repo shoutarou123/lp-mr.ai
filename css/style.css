@@ -15,6 +15,7 @@ li {
   list-style: none;
 }
 
+/* *********** header **************** */
 .fv {
   background-image: url(../img/pc/fv-bg-img@2x.png);
   background-size: cover;
@@ -126,9 +127,16 @@ header {
   top: 5px;
 }
 
+.header_menu_ul li:nth-child(5):hover {
+  opacity: 0.7;
+}
+
 .header_menu li a img {
   display: block;
 }
+
+
+/* ************* fv ******************** */
 
 .fv_content_flex {
   display: flex;
@@ -188,6 +196,22 @@ header {
 
 .fv_right_content {
   margin-top: 11px;
+}
+
+/* ********** cta ********************* */
+.cta_content {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cta_content a:hover {
+  opacity: 0.7;
+}
+
+.sp_cta {
+  display: none;
 }
 
 @media screen and (max-width: 1919px) {
@@ -277,11 +301,20 @@ header {
   .header_menu_ul li:nth-child(4) {
     margin-right: 16px;
   }
+
+  /* ---------- cta ------------- */
+  .cta_content img:first-child {
+    width: 900px;
+    height: auto;
+  }
 }
 
 
 /* ********** ブレイクポイント ***************** */
 @media screen and (max-width: 1000px) {
+  .fv {
+    padding-bottom: 23px;
+  }
 
   header {
     background-color: aqua;
@@ -347,6 +380,57 @@ header {
   .fv_right_content img {
     width: 530px;
   }
+
+  /* ------------ cat --------------- */
+
+
+  .cta_content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* PC用画像を非表示 */
+  .cta_content img:first-child {
+    display: none;
+  }
+
+  .cta_content a {
+    width: 100%;
+    /* 必要に応じてmax-width調整OK */
+  }
+
+  /* sp画像を幅1000px基準で可変表示 */
+  .sp_cta {
+    display: block;
+    width: 100% !important;
+    max-width: 1000px !important;
+    height: auto !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* .cta_content img:first-child {
+    display: none;
+  } */
+
+  /* .cta_content {
+    max-width: 1000px;
+  } */
+
+  /* .sp_cta {
+    display: block;
+    width: 100% !important;
+    max-width: 1000px !important;
+    height: auto !important;
+  } */
 }
 
 @media screen and (max-width: 800px) {
@@ -433,6 +517,7 @@ header {
 }
 
 @media screen and (max-width: 375px) {
+
   .navigation {
     top: 66px;
   }
@@ -527,6 +612,7 @@ header {
   .fv_right_content img {
     width: 270px;
   }
+
 }
 
 @media screen and (max-width: 360px) {
