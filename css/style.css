@@ -391,6 +391,56 @@ header {
   margin-left: 25px;
 }
 
+/* *********** shinjoshiki **************** */
+.h2_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+}
+
+.h2_content h2 {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.sub_text_content p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.text_red {
+  color: #DB0000;
+}
+
+.sub_text_content {
+  margin-top: 31px;
+  margin-left: 613px;
+  margin-bottom: 53px;
+}
+
+.sub_text_bottom {
+  display: inline-block;
+  margin-left: 13px;
+}
+
+.sp_sub_text {
+  display: none;
+}
+
+.shinjoshiki_img_content {
+  display: flex;
+  justify-content: center;
+}
+
+.sp_shinjoshiki_img {
+  display: none;
+}
+
+
+
+
 @media screen and (min-width: 1921px) {
   .fv_content_flex {
     justify-content: center;
@@ -427,6 +477,24 @@ header {
 
   .worries_right_content {
     margin-left: 0px;
+  }
+
+  /* *********** shinjoshiki **************** */
+  .sub_text_content {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub_text_bottom {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .sub_text_content p:not(.sp_sub_text) {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
 
 }
@@ -467,6 +535,24 @@ header {
 
   .worries_right_content {
     margin-left: 0px;
+  }
+
+  /* *********** shinjoshiki **************** */
+  .sub_text_content {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub_text_bottom {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .sub_text_content p:not() {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
 
 }
@@ -578,6 +664,13 @@ header {
     width: 900px;
     height: auto;
   }
+
+  /* ------------------- shinjoshiki ----------------- */
+  .shinjoshiki_img_content img:not(.sp_shinjoshiki_img) {
+    width: 800px;
+    aspect-ratio: 1100 / 324;
+    height: auto;
+  }
 }
 
 
@@ -678,7 +771,7 @@ header {
     height: auto !important;
   }
 
-  /* ************ worries ************* */
+  /* -------------------- worries ------------- */
   .worries {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -745,6 +838,26 @@ header {
   .fukidashi_text.right_top,
   .fukidashi_text.right_bottom {
     left: 54%;
+  }
+
+  /* ------------------- shinjoshiki ----------------- */
+  .sub_text_content p:not(.sp_sub_text) {
+    display: none;
+  }
+
+  .sp_sub_text {
+    display: block;
+  }
+
+  .shinjoshiki_img_content img:not(.sp_shinjoshiki_img) {
+    display: none;
+  }
+
+  .sp_shinjoshiki_img {
+    display: block;
+    width: 500px;
+    aspect-ratio: 311 / 317;
+    height: auto;
   }
 
 }
@@ -842,6 +955,24 @@ header {
   .worries_center_content img {
     width: 110px;
   }
+
+  /* --------- shinjoshiki -------------- */
+  .h2_content h2 {
+    font-size: 24px;
+  }
+
+  .h2_content h2 img {
+    width: 180px;
+    height: auto;
+  }
+
+  .sub_text_content p {
+    font-size: 20px;
+  }
+
+  .sp_shinjoshiki_img {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -924,6 +1055,24 @@ header {
   .fukidashi_text.right_top,
   .fukidashi_text.right_bottom {
     left: 58%;
+  }
+
+  /* --------- shinjoshiki -------------- */
+  .h2_content h2 {
+    font-size: 22px;
+  }
+
+  .h2_content h2 img {
+    width: 155px;
+    height: auto;
+  }
+
+  .sub_text_content p {
+    font-size: 18px;
+  }
+
+  .sp_shinjoshiki_img {
+    width: 311px;
   }
 
 
@@ -1113,6 +1262,21 @@ header {
     top: 45%;
   }
 
+  /* ---------- shinjoshiki --------- */
+  .h2_content {
+    margin-top: 48px;
+    margin-left: 3px;
+  }
+
+  .sub_text_content {
+    margin-top: 24px;
+    margin-bottom: 43px;
+  }
+
+  .sp_sub_text {
+    line-height: 28px;
+  }
+
 }
 
 @media screen and (max-width: 370px) {
@@ -1153,6 +1317,15 @@ header {
   .fukidashi_text.right_top,
   .fukidashi_text.right_bottom {
     left: 60%;
+  }
+
+  /* ----------- shinjoshiki --------------- */
+  .h2_content h2 {
+    font-size: 21px;
+  }
+
+  .sub_text_content p {
+    font-size: 17px;
   }
 }
 

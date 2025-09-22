@@ -136,7 +136,8 @@
   <section class="worries">
     <div class="worries_top_text_content">
       <h2><span class="konna_text">こんな</span><span class="dots">時間</span><span class="red_text">と</span><span
-          class="dots">お金の</span><span class="dots">ムダ</span><span class="mada_text">まだ抱えていませんか？</span><span class="arima_text">ありませんか？</span></h2>
+          class="dots">お金の</span><span class="dots">ムダ</span><span class="mada_text">まだ抱えていませんか？</span><span
+          class="arima_text">ありませんか？</span></h2>
     </div>
     <div class="worries_main_content_flex">
       <div class="worries_reft_content">
@@ -144,7 +145,8 @@
           <p class="fukidashi_text">毎月の残業が<br class="hidden">当<br class="sp">たり前になって<br class="sp">いる</p>
         </div>
         <div class="bg_fukidashi_content_reft_center">
-          <p class="fukidashi_text center">ChatGPTを触っ<br class="sp">たけど、<br class="hidden">仕事に<br class="sp">は活かせていな<br class="sp">い</p>
+          <p class="fukidashi_text center">ChatGPTを触っ<br class="sp">たけど、<br class="hidden">仕事に<br class="sp">は活かせていな<br
+              class="sp">い</p>
         </div>
         <div class="bg_fukidashi_content_reft_bottom">
           <p class="fukidashi_text">AIを入れても何<br class="sp">ができるか<br class="hidden">分か<br class="sp">らない</p>
@@ -156,13 +158,36 @@
       </div>
       <div class="worries_right_content">
         <div class="bg_fukidashi_content_right_top">
-          <p class="fukidashi_text right_top">営業・マーケ・<br class="sp">経理など<br class="hidden">部門ご<br class="sp">との業務が<br class="hidden">属人<br class="sp">化している</p>
+          <p class="fukidashi_text right_top">営業・マーケ・<br class="sp">経理など<br class="hidden">部門ご<br class="sp">との業務が<br
+              class="hidden">属人<br class="sp">化している</p>
         </div>
         <div class="bg_fukidashi_content_right_bottom">
-          <p class="fukidashi_text right_bottom">効率化したい<br class="sp">が、<br class="hidden">何から手を<br class="sp">付ければいいか<br>迷っている</p>
+          <p class="fukidashi_text right_bottom">効率化したい<br class="sp">が、<br class="hidden">何から手を<br
+              class="sp">付ければいいか<br>迷っている</p>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="shinjoshiki_section">
+    <div class="h2_content">
+      <h2>AI活用の新常識、<img src="./img/pc/mr-ai.png" srcset="./img/pc/mr-ai@2x.png 2x, ./img/pc/mr-ai.png 1x" width="262"
+          height="54" alt="ミスターAI"></h2>
+    </div>
+    <div class="sub_text_content">
+      <p>AIでできることを見つけ、戦略を描き、実行まで伴走。
+        <span class="sub_text_bottom">ミスターAIが、<span class="text_red">あなたの働き方を一歩先へ進めます</span>。</span>
+      </p>
+      <p class="sp_sub_text">
+        AIでできることを見つけ、戦略を描き、実<br class="sp">行まで伴走。ミスターAIが、<span class="text_red">あなたの働き<br class="sp">方を一歩先へ進めます</span>。
+      </p>
+    </div>
+    <div class="shinjoshiki_img_content">
+      <img src="./img/pc/shinjoshiki-img.png" srcset="./img/pc/shinjoshiki-img@2x.png 2x, ./img/pc/shinjoshiki-img.png 1x"
+        width="1100" height="324" alt="AI活用の説明">
+      <img class="sp_shinjoshiki_img" src="./img/sp/sp-shinjoshiki-img.png" srcset="./img/sp/sp-shinjoshiki-img@2x.png 2x, ./img/sp/sp-shinjoshiki-img.png 1x" width="311" height="317" alt="AI活用の説明">
+    </div>
+
   </section>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
