@@ -1,5 +1,5 @@
 html {
-  font-family: "Noto Sans JP", "DM Sans", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "Noto Sans JP", "Zen Maru Gothic", "DM Sans", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 * {
@@ -214,16 +214,181 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 1919px) {
-  .fv_content_flex {
-    justify-content: center;
-    gap: 32px;
-  }
+/* ************ worries ****************** */
+.worries {
+  background-color: #F8F8F8;
+  padding-top: 57px;
+  padding-bottom: 48px;
+}
 
-  .fv_left_content {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+.worries_top_text_content {
+  display: flex;
+  flex-flow: column;
+  margin-left: 533px;
+}
+
+.worries_top_text_content h2 {
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.dots,
+.red_text {
+  letter-spacing: 1.5px;
+  color: #DB0000;
+  font-size: 42px;
+
+}
+
+.worries_top_text_content h2 .dots:nth-of-type(2) {
+  background-image: radial-gradient(circle at center, #DB0000 20%, transparent 20%);
+  /* 点の色とサイズ調整 */
+  background-position: 0px 1px;
+  /* 点の位置 */
+  background-repeat: repeat-x;
+  /* 横方向に繰り返し */
+  background-size: 1em 0.3em;
+  /* 点の間隔とサイズ調整 */
+  padding-top: 0.12em;
+  /* 縦方向の位置調整 */
+}
+
+.worries_top_text_content h2 .dots:nth-of-type(4) {
+  background-image: radial-gradient(circle at center, #DB0000 20%, transparent 20%);
+  /* 点の色とサイズ調整 */
+  background-position: 1px 1px;
+  /* 点の位置 */
+  background-repeat: repeat-x;
+  /* 横方向に繰り返し */
+  background-size: 1em 0.3em;
+  /* 点の間隔とサイズ調整 */
+  padding-top: 0.12em;
+  /* 縦方向の位置調整 */
+}
+
+.worries_top_text_content h2 .dots:nth-of-type(5) {
+  background-image: radial-gradient(circle at center, #DB0000 20%, transparent 20%);
+  /* 点の色とサイズ調整 */
+  background-position: 3px 1px;
+  /* 点の位置 */
+  background-repeat: repeat-x;
+  /* 横方向に繰り返し */
+  background-size: 1em 0.3em;
+  /* 点の間隔とサイズ調整 */
+  padding-top: 0.12em;
+  /* 縦方向の位置調整 */
+}
+
+.mada_text {
+  letter-spacing: -0.7px;
+}
+
+.arima_text {
+  display: none;
+}
+
+.worries_main_content_flex {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 51px;
+  /* gap:20px; */
+}
+
+.worries_reft_content {
+  margin-left: 401px;
+}
+
+.bg_fukidashi_content_reft_top {
+  background-image: url("../img/pc/fukidashi-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 332px;
+  height: 128px;
+  margin-top: -2px;
+  position: relative;
+}
+
+.bg_fukidashi_content_reft_center {
+  background-image: url("../img/pc/fukidashi-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 345px;
+  height: 128px;
+  margin-top: -4px;
+  margin-left: 3px;
+  position: relative;
+}
+
+.bg_fukidashi_content_reft_bottom {
+  background-image: url("../img/pc/fukidashi-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 332px;
+  height: 128px;
+  position: relative;
+}
+
+.bg_fukidashi_content_right_top {
+  background-image: url("../img/pc/fukidashi-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 332px;
+  height: 148px;
+  margin-top: 38px;
+  position: relative;
+}
+
+.bg_fukidashi_content_right_bottom {
+  background-image: url("../img/pc/fukidashi-5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 332px;
+  height: 148px;
+  position: relative;
+}
+
+.fukidashi_text {
+  color: #FFF;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.sp {
+  display: none;
+}
+
+.fukidashi_text.center {
+  text-align: left;
+  top: 47%;
+  left: 62%;
+}
+
+.fukidashi_text.right_top {
+  top: 48%;
+}
+
+.fukidashi_text.right_bottom {
+  top: 47%;
+}
+
+.worries_center_content {
+  margin-left: 5px;
+}
+
+.worries_right_content {
+  margin-left: 25px;
 }
 
 @media screen and (min-width: 1921px) {
@@ -236,7 +401,76 @@ header {
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  /* ********* worries ********** */
+  .worries_top_text_content {
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .worries_main_content_flex {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .worries_reft_content {
+    margin-left: 0px;
+  }
+
+  .bg_fukidashi_content_reft_center {
+    margin-left: 0px;
+  }
+
+  .worries_center_content {
+    margin-left: 0px;
+  }
+
+  .worries_right_content {
+    margin-left: 0px;
+  }
+
 }
+
+@media screen and (max-width: 1919px) {
+  .worries_top_text_content {
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .fv_content_flex {
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .fv_left_content {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* ********* worries ********** */
+  .worries_main_content_flex {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .worries_reft_content {
+    margin-left: 0px;
+  }
+
+  .bg_fukidashi_content_reft_center {
+    margin-left: 0px;
+  }
+
+  .worries_center_content {
+    margin-left: 0px;
+  }
+
+  .worries_right_content {
+    margin-left: 0px;
+  }
+
+}
+
 
 @media screen and (max-width: 1400px) {
   .pc_fukidashi_img {
@@ -281,6 +515,43 @@ header {
   .header_menu_ul li:nth-child(4) {
     margin-right: 26px;
   }
+
+  /* ******** worries ********** */
+  .worries_top_text_content h2 {
+    font-size: 30px;
+  }
+
+  .dots,
+  .red_text {
+    font-size: 36px;
+  }
+
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 300px;
+  }
+
+  .fukidashi_text {
+    font-size: 18px;
+  }
+
+  .fukidashi_text.center {
+    left: 66%;
+  }
+
+  .worries_center_content {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .worries_center_content img {
+    width: 300px;
+    height: auto;
+  }
+
 }
 
 @media screen and (max-width: 1120px) {
@@ -407,30 +678,75 @@ header {
     height: auto !important;
   }
 
+  /* ************ worries ************* */
+  .worries {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
-
-
-
-
-
-
-
-
-
-  /* .cta_content img:first-child {
+  .mada_text {
     display: none;
-  } */
+  }
 
-  /* .cta_content {
-    max-width: 1000px;
-  } */
-
-  /* .sp_cta {
+  .arima_text {
     display: block;
-    width: 100% !important;
-    max-width: 1000px !important;
-    height: auto !important;
-  } */
+    text-align: center;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .worries_main_content_flex {
+    gap: 0px;
+    margin-top: 30px;
+  }
+
+  .bg_fukidashi_content_reft_top {
+    background-image: url(../img/sp/sp-fukidashi-1.png);
+  }
+
+  .bg_fukidashi_content_reft_center {
+    background-image: url(../img/sp/sp-fukidashi-2.png);
+  }
+
+  .bg_fukidashi_content_reft_bottom {
+    background-image: url(../img/sp/sp-fukidashi-3.png);
+  }
+
+  .bg_fukidashi_content_right_top {
+    background-image: url(../img/sp/sp-fukidashi-4.png);
+  }
+
+  .bg_fukidashi_content_right_bottom {
+    background-image: url(../img/sp/sp-fukidashi-5.png);
+  }
+
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 252px;
+    aspect-ratio: 141 / 105;
+    height: auto;
+  }
+
+  .fukidashi_text {
+    text-align: left;
+    width: 50%;
+  }
+
+  .fukidashi_text,
+  .fukidashi_text.center {
+    left: 45%;
+  }
+
+  .fukidashi_text.right_top,
+  .fukidashi_text.right_bottom {
+    left: 54%;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -444,6 +760,33 @@ header {
 
   .fv_right_content img {
     width: 430px;
+  }
+
+  /* ********** worries *********** */
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 210px;
+  }
+
+  .fukidashi_text {
+    width: 60%;
+  }
+
+  .fukidashi_text,
+  .fukidashi_text.center {
+    left: 46%;
+  }
+
+  .worries_center_content img {
+    width: 170px;
+  }
+
+  .fukidashi_text.right_top,
+  .fukidashi_text.right_bottom {
+    left: 55%;
   }
 }
 
@@ -472,6 +815,32 @@ header {
 
   .fv_right_content img {
     width: 330px;
+  }
+
+  /* ********** worries ************* */
+  .worries_top_text_content h2 {
+    font-size: 22px;
+  }
+
+  .dots,
+  .red_text {
+    font-size: 30px;
+  }
+
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 170px;
+  }
+
+  .fukidashi_text {
+    font-size: 14px;
+  }
+
+  .worries_center_content img {
+    width: 110px;
   }
 }
 
@@ -514,6 +883,50 @@ header {
   .fv_right_content img {
     width: 300px;
   }
+
+  /* *********** worries *************** */
+  .worries {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .worries_top_text_content h2 {
+    font-size: 20px;
+  }
+
+  .dots,
+  .red_text {
+    font-size: 26px;
+  }
+
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 132px;
+  }
+
+  .fukidashi_text,
+  .fukidashi_text.center {
+    left: 48%;
+  }
+
+  .fukidashi_text {
+    font-size: 12px;
+    width: 70%;
+  }
+
+  .worries_center_content img {
+    width: 96px;
+  }
+
+  .fukidashi_text.right_top,
+  .fukidashi_text.right_bottom {
+    left: 58%;
+  }
+
+
 }
 
 @media screen and (max-width: 375px) {
@@ -613,6 +1026,134 @@ header {
     width: 270px;
   }
 
+  /*  *************  worries ************/
+  .worries {
+    padding-bottom: 38px;
+  }
+
+  .worries_top_text_content {
+    align-items: start;
+    margin-left: 43px;
+  }
+
+  .konna_text {
+    letter-spacing: 1.9px;
+  }
+
+  .dots,
+  .red_text {
+    margin-left: 1px;
+  }
+
+  .arima_text {
+    font-size: 22px;
+  }
+
+  .worries_main_content_flex {
+    justify-content: start;
+  }
+
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 141px;
+  }
+
+  .worries_reft_content {
+    margin-left: 7px;
+  }
+
+  .bg_fukidashi_content_reft_top {
+    margin-top: -11px;
+  }
+
+  .bg_fukidashi_content_reft_center {
+    margin-top: -11px;
+  }
+
+  .bg_fukidashi_content_reft_bottom {
+    margin-top: -11px;
+  }
+
+  .fukidashi_text {
+    top: 48%;
+  }
+
+  .worries_center_content {
+    margin-top: 93px;
+    margin-left: -5px;
+  }
+
+  .worries_center_content img {
+    width: 90px;
+  }
+
+  .bg_fukidashi_content_right_top {
+    margin-top: 38px;
+    margin-left: -5px;
+  }
+
+  .bg_fukidashi_content_right_bottom {
+    margin-top: -11px;
+    margin-left: -5px;
+  }
+
+  .fukidashi_text.right_top,
+  .fukidashi_text.right_bottom {
+    left: 55%;
+  }
+
+  .fukidashi_text.right_top {
+    top: 45%;
+  }
+
+  .fukidashi_text.right_bottom {
+    top: 45%;
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  .worries_top_text_content {
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .worries_main_content_flex {
+    justify-content: center;
+  }
+
+  .fukidashi_text {
+    font-size: 11px;
+  }
+
+  .worries_reft_content {
+    margin-left: 0px;
+  }
+
+  .bg_fukidashi_content_reft_top,
+  .bg_fukidashi_content_reft_center,
+  .bg_fukidashi_content_reft_bottom,
+  .bg_fukidashi_content_right_top,
+  .bg_fukidashi_content_right_bottom {
+    width: 136px;
+  }
+
+  .fukidashi_text,
+  .fukidashi_text.center {
+    left: 51%;
+  }
+
+  .worries_center_content img {
+    width: 82px;
+  }
+
+  .fukidashi_text.right_top,
+  .fukidashi_text.right_bottom {
+    left: 60%;
+  }
 }
 
 @media screen and (max-width: 360px) {
