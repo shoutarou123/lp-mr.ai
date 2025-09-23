@@ -661,6 +661,119 @@
           width="450" height="110" alt="プロに無料相談する">
       </a>
     </div>
+  </section>
+
+  <section class="service_section">
+    <div class="h2_text_content service">
+      <h2 class="h2_text">サービス導入までの流れ</h2>
+    </div>
+
+    <div class="sp_mieruka_img_content">
+      <img class="sp_mieruka_img" src="./img/sp/sp-mieruka.png"
+        srcset="./img/sp/sp-mieruka@2x.png 2x, ./img/sp/sp-mieruka.png 1x" width="292" height="44" alt="初回無料相談で課題の見える化">
+    </div>
+
+    <div class="catchcopy_text_content">
+      <p class="catchcopy_text">サービス開始まで、<strong class="text_red">最短3日</strong>！あなたの課題をAIで即解決</p>
+      <div class="mieruka_img_content">
+        <img class="mieruka_img" src="./img/pc/mieruka.png" srcset="./img/pc/mieruka@2x.png 2x, ./img/pc/mieruka.png 1x"
+          width="304" height="40" alt="初回無料相談で課題の見える化">
+      </div>
+    </div>
+
+
+    <div class="step_img_content_flex">
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-1.png" srcset="./img/pc/step-1@2x.png 2x, ./img/pc/step-1.png 1x"
+          width="218" height="264" alt="STEP1 まずは無料相談 あなたの業務課題をヒアリングし、改善の方向性を整理します。">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-2.png" srcset="./img/pc/step-2@2x.png 2x, ./img/pc/step-2.png 1x"
+          width="218" height="264" alt="STEP2 課題とゴールを共有 目指す姿とAI導入の方針を決定。">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-3.png" srcset="./img/pc/step-3@2x.png 2x, ./img/pc/step-3.png 1x"
+          width="218" height="264" alt="STEP3 改善プラン設計 スケジュールと必要なリソースを明確化">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-4.png" srcset="./img/pc/step-4@2x.png 2x, ./img/pc/step-4.png 1x"
+          width="218" height="264" alt="STEP4 契約＆準備 ツール開設・導入準備をスピーディに実施。">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-5.png" srcset="./img/pc/step-5@2x.png 2x, ./img/pc/step-5.png 1x"
+          width="218" height="264" alt="STEP5 AI導入スタート! キックオフMTGで即改善に着手。効果測定も同時進行。">
+      </div>
+    </div>
+
+    <div class="eigyoubi_img_content_flex">
+      <div class="eigyoubi_img_content">
+        <img class="eigyoubi_img" src="./img/pc/eigyoubi-1.png"
+          srcset="./img/pc/eigyoubi-1@2x.png 2x, ./img/pc/eigyoubi-1.png 1x" width="650" height="50" alt="最短1営業日">
+      </div>
+      <div class="eigyoubi_img_content">
+        <img class="eigyoubi_img" src="./img/pc/eigyoubi-2.png"
+          srcset="./img/pc/eigyoubi-2@2x.png 2x, ./img/pc/eigyoubi-2.png 1x" width="426" height="50" alt="最短2営業日">
+      </div>
+    </div>
+
+    <div class="otoiawase_text_content">
+      <p class="otoiawase_text">お問い合わせから<span class="text_red otoiawase">最短3日でサービス開始</span>が可能です</p>
+    </div>
+
+    <div class="service_cta_button_img_content">
+      <img class="service_cta_button_img" src="./img/pc/service-cta-button.png" srcset="./img/pc/service-cta-button@2x.png 2x, ./img/pc/service-cta-button.png 1x" alt="満足できなければ本格投資前に終了可能 リスクを抑えてお試しいただけます。 プロに無料相談する">
+    </div>
+    <div class="sp_service_cta_button_img_content">
+      <img class="sp_service_cta_button_img" src="./img/sp/sp-service-cta-button.png" srcset="./img/sp/sp-service-cta-button@2x.png 2x, ./img/sp/sp-service-cta-button.png 1x" alt="満足できなければ本格投資前に終了可能 リスクを抑えてお試しいただけます。 プロに無料相談する">
+    </div>
+
+
+
+
+
+
+
+    <div class="sp_step_content_flex">
+      <div class="sp_eityoubi_img_container">
+        <div class="sp_eigyoubi_img_content">
+          <img class="sp_eigyoubi_img" src="img/sp/sp-eigyoubi-1.png"
+            srcset="./img/sp/sp-eigyoubi-1@2x.png 2x, ./img/sp/sp-eigyoubi-1.png 1x" width="34" height="374"
+            alt="最短1営業日">
+        </div>
+        <div class="sp_eigyoubi_img_content">
+          <img class="sp_eigyoubi_img" src="img/sp/sp-eigyoubi-2.png"
+            srcset="./img/sp/sp-eigyoubi-2@2x.png 2x, ./img/sp/sp-eigyoubi-2.png 1x" width="34" height="244"
+            alt="最短2営業日">
+        </div>
+      </div>
+      <div class="sp_step_img_container">
+        <div class="sp_step_img_content">
+          <img class="sp_step_img" src="./img/sp/sp-step-1.png"
+            srcset="./img/sp/sp-step-1@2x.png 2x, ./img/sp/sp-step-1.png 1x" width="311" height="126"
+            alt="STEP1 まずは無料相談 あなたの営業課題をヒアリングし、改善の方向性を整理します。">
+        </div>
+        <div class="sp_step_img_content">
+          <img class="sp_step_img" src="./img/sp/sp-step-2.png"
+            srcset="./img/sp/sp-step-2@2x.png 2x, ./img/sp/sp-step-2.png 1x" width="311" height="126"
+            alt="STEP2 課題とゴールを共有 目指す姿とAI導入の方針を決定。">
+        </div>
+        <div class="sp_step_img_content">
+          <img class="sp_step_img" src="./img/sp/sp-step-3.png"
+            srcset="./img/sp/sp-step-3@2x.png 2x, ./img/sp/sp-step-3.png 1x" width="311" height="126"
+            alt="STEP3 改善プラン設計 スケジュールと必要なリソースを明確化">
+        </div>
+        <div class="sp_step_img_content">
+          <img class="sp_step_img" src="./img/sp/sp-step-4.png"
+            srcset="./img/sp/sp-step-4@2x.png 2x, ./img/sp/sp-step-4.png 1x" width="311" height="126"
+            alt="STEP4 契約＆準備 ツール開設・導入準備をスピーディに実施。">
+        </div>
+        <div class="sp_step_img_content">
+          <img class="sp_step_img" src="./img/sp/sp-step-5.png"
+            srcset="./img/sp/sp-step-5@2x.png 2x, ./img/sp/sp-step-5.png 1x" width="311" height="126"
+            alt="STEP5 AI導入スタート! キックオフMTGで即改善に着手。効果測定も同時進行。">
+        </div>
+      </div>
+    </div>
 
   </section>
 

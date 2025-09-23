@@ -850,6 +850,8 @@ header {
   display: flex;
   justify-content: center;
   gap: 6px;
+  margin-bottom: 9px;
+
 }
 
 .contact_button_content {
@@ -859,6 +861,89 @@ header {
 
 .contact_button_content:hover {
   opacity: 0.7;
+}
+
+/*  -------------- service ------------------- */
+.service_section {
+  background-color: #F8F8F8;
+  padding-top: 60px;
+  padding-bottom: 62px;
+}
+
+.h2_text_content.service {
+  margin-bottom: 33px;
+}
+
+.catchcopy_text_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
+
+}
+
+.catchcopy_text {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 5px;
+  margin-right: 9px;
+}
+
+.sp_mieruka_img_content {
+  display: none;
+}
+
+.sp_step_content_flex {
+  display: flex;
+}
+
+.sp_eityoubi_img_container {
+  display: none;
+}
+
+.sp_step_img_container {
+  display: none;
+}
+
+.step_img_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 14px;
+}
+
+.eigyoubi_img_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 24px;
+}
+
+.otoiawase_text_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.otoiawase_text {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -0.9px;
+
+}
+
+.text_red.otoiawase {
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #fdd8d8 60%);
+}
+
+.service_cta_button_img_content {
+  display: flex;
+  justify-content: center;
+}
+
+.sp_service_cta_button_img_content {
+  display: none;
 }
 
 
