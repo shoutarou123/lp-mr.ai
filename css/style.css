@@ -637,13 +637,13 @@ header {
   padding-bottom: 60px;
 }
 
-.kaizen_h2_content {
+.h2_text_content {
   display: flex;
   justify-content: center;
   margin-bottom: 51px;
 }
 
-.kaizen_h2 {
+.h2_text {
   font-size: 36px;
   font-weight: bold;
 }
@@ -836,6 +836,30 @@ header {
   display: block;
 }
 
+/* -------------- plan ------------------ */
+.plan_section {
+  padding-top: 59px;
+  padding-bottom: 38px;
+}
+
+.h2_text_content.plan {
+  margin-bottom: 49px;
+}
+
+.plan_img_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.contact_button_content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_button_content:hover {
+  opacity: 0.7;
+}
 
 
 
@@ -1148,6 +1172,15 @@ header {
   .bg_square {
     width: 560px;
   }
+
+  /* ----------- plan -------------- */
+  .plan_img {
+    width: 320px;
+    aspect-ratio: 368 / 536;
+    height: auto;
+  }
+
+
 
 }
 
@@ -1624,6 +1657,24 @@ header {
     margin-left: 18px;
   }
 
+  /* ----------- plan ---------------- */
+  .plan_img_content_flex {
+    margin-left: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+    justify-content: start;
+  }
+
+  .plan_img {
+    width: 368px;
+  }
+
+  .contact_button_content {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -1798,7 +1849,7 @@ header {
     width: 390px;
   }
 
-  .kaizen_h2 {
+  .h2_text {
     font-size: 34px;
   }
 
@@ -2025,11 +2076,11 @@ header {
     padding-bottom: 50px;
   }
 
-  .kaizen_h2_content {
+  .h2_text_content {
     margin-bottom: 24px;
   }
 
-  .kaizen_h2 {
+  .h2_text {
     font-size: 22px;
   }
 
@@ -2104,6 +2155,19 @@ header {
 
   .setumei_content {
     margin-bottom: 16px;
+  }
+
+  /* -------------- plan -------------------- */
+  .plan_section {
+    padding-top: 46px;
+  }
+
+  .h2_text_content.plan {
+    margin-bottom: 26px;
+  }
+
+  .plan_img {
+    width: 300px;
   }
 
 }
@@ -2472,6 +2536,22 @@ header {
     margin-bottom: 17px;
   }
 
+  /* ----------------- plan ---------------- */
+  .plan_section {
+    padding-bottom: 60px;
+  }
+
+  .h2_text_content.plan {
+    margin-bottom: 22px;
+  }
+
+  .plan_img_content_flex {
+    margin-left: 9px;
+  }
+
+  .plan_img {
+    width: 291px;
+  }
 
 }
 
