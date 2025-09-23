@@ -314,8 +314,8 @@
   </section>
 
   <section class="kaizen_section">
-    <div class="kaizen_h2_content">
-      <h2 class="kaizen_h2">具体的な業務改善イメージ</h2>
+    <div class="h2_text_content">
+      <h2 class="h2_text">具体的な業務改善イメージ</h2>
     </div>
 
     <div class="select_content_flex">
@@ -392,8 +392,10 @@
           </div>
           <ul>
             <li class="square_bottom_text"><span class="dot_marker">・</span>8時間かけて請求書を1枚ずつ手入力</li>
-            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照<br class="sp kaizen"><span class="kaizen_space">合</span></li>
-            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末<br class="sp"><span class="kaizen_space">は“帰れない日”が当たり前</span></li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照<br
+                class="sp kaizen"><span class="kaizen_space">合</span></li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末<br class="sp"><span
+                class="kaizen_space">は“帰れない日”が当たり前</span></li>
           </ul>
         </div>
         <div class="bg_square red">
@@ -405,7 +407,8 @@
           <ul>
             <li class="square_bottom_text"><span class="dot_marker">・</span>請求書は写真1枚、5分で入力完了</li>
             <li class="square_bottom_text"><span class="dot_marker">・</span>差額があれば即アラート＆原因特定</li>
-            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削<br class="sp"><span class="kaizen_space">減</span></li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削<br class="sp"><span
+                class="kaizen_space">減</span></li>
           </ul>
         </div>
         <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
@@ -627,7 +630,37 @@
         <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
       </div>
     </div>
+  </section>
 
+  <section class="plan_section">
+    <div class="h2_text_content plan">
+      <h2 class="h2_text">料金プラン</h2>
+    </div>
+
+    <div class="plan_img_content_flex">
+      <div class="plan_img_content">
+        <img class="plan_img" src="./img/pc/plan-1.png" srcset="./img/pc/plan-1@2x.png 2x, ./img/pc/plan-1.png 1x"
+          width="368" height="536"
+          alt="まずはAI効果を体感！トライアルプラン 小さく始めて、大きく変える。初めてのAI導入に最適 10万円/月額 ✓即効性の高いAI活用方法を紹介 ✓最適なAIツールの選定・導入支援 ✓困ったらすぐ相談できるチャットサポート">
+      </div>
+      <div class="plan_img_content">
+        <img class="plan_img" src="./img/pc/plan-2.png" srcset="./img/pc/plan-2@2x.png 2x, ./img/pc/plan-2.png 1x"
+          width="368" height="536"
+          alt="成果を出すための本格AI導入プラン 複数部門・複数業務を同時に最適化するならこのプラン 30万円/月額 ✓複数業務に対するAI導入で全体最適化 ✓専門チームが週次MTGでプロジェクトを進行 ✓費用対効果の計測・可視化までサポート">
+      </div>
+      <div class="plan_img_content">
+        <img class="plan_img" src="./img/pc/plan-3.png" srcset="./img/pc/plan-3@2x.png 2x, ./img/pc/plan-3.png 1x"
+          width="368" height="536"
+          alt="既存の限界を突破する“専門AI”を開発します 要件に応じて個別お見積り（柔軟に対応）✓現場課題を的確に反映した要件設計 ✓完全オーダーメイド開発＆スムーズな導入 ✓既存データを最大活用できる連携・運用支援">
+      </div>
+    </div>
+
+    <div class="contact_button_content">
+      <a href="">
+        <img class="button_img" src="./img/pc/button.png" srcset="./img/pc/button@2x.png 2x, ./img/pc/button.png 1x"
+          width="450" height="110" alt="プロに無料相談する">
+      </a>
+    </div>
 
   </section>
 
