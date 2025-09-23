@@ -7,10 +7,15 @@
   <title>ミスターAI | 株式会社taiziii（タイジー） </title>
   <meta name="description" content="">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Zen+Maru+Gothic&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -263,7 +268,6 @@
             <span class="text_red tuyomi himitu">秘密</span>
           </div>
         </div>
-
       </h2>
     </div>
 
@@ -294,8 +298,8 @@
         </p>
       </div>
       <div class="himitu_img_content bottom">
-        <img class="sp_daihyou_img" src="./img/pc/daihyou.png" srcset="./img/pc/daihyou@2x.png 2x ./img/pc/daihyou.png 1x" width="468"
-          height="320" alt="株式会社taiziii代表加藤">
+        <img class="sp_daihyou_img" src="./img/pc/daihyou.png"
+          srcset="./img/pc/daihyou@2x.png 2x ./img/pc/daihyou.png 1x" width="468" height="320" alt="株式会社taiziii代表加藤">
       </div>
     </div>
     <div class="cta_button_content">
@@ -309,8 +313,327 @@
     </div>
   </section>
 
+  <section class="kaizen_section">
+    <div class="kaizen_h2_content">
+      <h2 class="kaizen_h2">具体的な業務改善イメージ</h2>
+    </div>
+
+    <div class="select_content_flex">
+      <div class="select_wrapper">
+        <div class="select_text_content active" data-target="keiri">
+          <span class="vertical_red_line"></span>
+          <div class="select_text_arrow_content">
+            <p class="select_text">経理部門</p>
+            <span class="arrow">▶</span>
+          </div>
+        </div>
+        <div class="select_text_content" data-target="eigyou">
+          <span class="vertical_red_line"></span>
+          <div class="select_text_arrow_content">
+            <p class="select_text">営業部門</p>
+            <span class="arrow">▶</span>
+          </div>
+        </div>
+        <div class="select_text_content" data-target="marketing">
+          <span class="vertical_red_line"></span>
+          <div class="select_text_arrow_content">
+            <p class="select_text">マーケティング部門</p>
+            <span class="arrow">▶</span>
+          </div>
+        </div>
+        <div class="select_text_content" data-target="jinji">
+          <span class="vertical_red_line"></span>
+          <div class="select_text_arrow_content">
+            <p class="select_text">人事部門</p>
+            <span class="arrow">▶</span>
+          </div>
+        </div>
+        <div class="select_text_content" data-target="keiei">
+          <span class="vertical_red_line"></span>
+          <div class="select_text_arrow_content">
+            <p class="select_text">経営者</p>
+            <span class="arrow">▶</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="display_after_select" id="keiri">
+        <div class="midashi_content">
+          <h4 class="midashi"><span class="text_red">AI経理革命</span>：残業ゼロ＆定時退社<br class="sp">パッケージ</h4>
+        </div>
+        <div class="setumei_content">
+          <p class="setumei">月末もいつも通りの時間に帰れる経理チー<br class="sp">ムへ</p>
+        </div>
+
+        <div class="red_line_square">
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">レシートも請求書も撮るだけ入力<br class="sp">完了</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">差額は即アラートでミスを防止</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">収支表まで自動転記で手作業ゼロ</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">未入金を逃さずキャッシュフロー<br class="sp">改善</p>
+          </div>
+        </div>
+
+        <div class="bg_square">
+          <div class="before_after_text_content">
+            <p class="before_after_text">Before</p>
+            <span class="vartical_line"></span>
+            <p class="before_after_jp_text_heading">月末の経理担当者</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>8時間かけて請求書を1枚ずつ手入力</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照<br class="sp kaizen"><span class="kaizen_space">合</span></li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末<br class="sp"><span class="kaizen_space">は“帰れない日”が当たり前</span></li>
+          </ul>
+        </div>
+        <div class="bg_square red">
+          <div class="before_after_text_content">
+            <p class="before_after_text red">After</p>
+            <span class="vartical_line red"></span>
+            <p class="before_after_jp_text_heading red">AI導入後</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>請求書は写真1枚、5分で入力完了</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>差額があれば即アラート＆原因特定</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削<br class="sp"><span class="kaizen_space">減</span></li>
+          </ul>
+        </div>
+        <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
+      </div>
+
+      <div class="display_after_select" id="eigyou">
+        <div class="midashi_content">
+          <h4 class="midashi"><span class="text_red">AI営業革命</span>：AI営業革命パッケージ</h4>
+        </div>
+        <div class="setumei_content">
+          <p class="setumei">AI営業革命チームへ</p>
+        </div>
+
+        <div class="red_line_square">
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">レシートも請求書も撮るだけ入力完了</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">差額は即アラートでミスを防止</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">収支表まで自動転記で手作業ゼロ</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">未入金を逃さずキャッシュフロー改善</p>
+          </div>
+        </div>
+
+        <div class="bg_square">
+          <div class="before_after_text_content">
+            <p class="before_after_text">Before</p>
+            <span class="vartical_line"></span>
+            <p class="before_after_jp_text_heading">月末の経理担当者</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>8時間かけて請求書を1枚ずつ手入力</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照合</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末は“帰れない日”が当たり前</li>
+          </ul>
+        </div>
+        <div class="bg_square red">
+          <div class="before_after_text_content">
+            <p class="before_after_text red">After</p>
+            <span class="vartical_line red"></span>
+            <p class="before_after_jp_text_heading red">AI導入後</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>請求書は写真1枚、5分で入力完了</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>差額があれば即アラート＆原因特定</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削減</li>
+          </ul>
+        </div>
+        <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
+      </div>
+
+      <div class="display_after_select" id="marketing">
+        <div class="midashi_content">
+          <h4 class="midashi"><span class="text_red">AIマーケティング革命</span>：AIマーケティングパッケージ</h4>
+        </div>
+        <div class="setumei_content">
+          <p class="setumei">AIマーケティング革命チームへ</p>
+        </div>
+
+        <div class="red_line_square">
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">レシートも請求書も撮るだけ入力完了</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">差額は即アラートでミスを防止</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">収支表まで自動転記で手作業ゼロ</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">未入金を逃さずキャッシュフロー改善</p>
+          </div>
+        </div>
+
+        <div class="bg_square">
+          <div class="before_after_text_content">
+            <p class="before_after_text">Before</p>
+            <span class="vartical_line"></span>
+            <p class="before_after_jp_text_heading">月末の経理担当者</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>8時間かけて請求書を1枚ずつ手入力</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照合</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末は“帰れない日”が当たり前</li>
+          </ul>
+        </div>
+        <div class="bg_square red">
+          <div class="before_after_text_content">
+            <p class="before_after_text red">After</p>
+            <span class="vartical_line red"></span>
+            <p class="before_after_jp_text_heading red">AI導入後</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>請求書は写真1枚、5分で入力完了</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>差額があれば即アラート＆原因特定</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削減</li>
+          </ul>
+        </div>
+        <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
+      </div>
+
+      <div class="display_after_select" id="jinji">
+        <div class="midashi_content">
+          <h4 class="midashi"><span class="text_red">AI人事革命</span>：AI人事パッケージ</h4>
+        </div>
+        <div class="setumei_content">
+          <p class="setumei">AI人事革命チームへ</p>
+        </div>
+
+        <div class="red_line_square">
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">レシートも請求書も撮るだけ入力完了</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">差額は即アラートでミスを防止</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">収支表まで自動転記で手作業ゼロ</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">未入金を逃さずキャッシュフロー改善</p>
+          </div>
+        </div>
+
+        <div class="bg_square">
+          <div class="before_after_text_content">
+            <p class="before_after_text">Before</p>
+            <span class="vartical_line"></span>
+            <p class="before_after_jp_text_heading">月末の経理担当者</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>8時間かけて請求書を1枚ずつ手入力</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照合</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末は“帰れない日”が当たり前</li>
+          </ul>
+        </div>
+        <div class="bg_square red">
+          <div class="before_after_text_content">
+            <p class="before_after_text red">After</p>
+            <span class="vartical_line red"></span>
+            <p class="before_after_jp_text_heading red">AI導入後</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>請求書は写真1枚、5分で入力完了</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>差額があれば即アラート＆原因特定</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削減</li>
+          </ul>
+        </div>
+        <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
+      </div>
+
+      <div class="display_after_select" id="keiei">
+        <div class="midashi_content">
+          <h4 class="midashi"><span class="text_red">AI経営革命</span>：AI経営パッケージ</h4>
+        </div>
+        <div class="setumei_content">
+          <p class="setumei">AI経営革命チームへ</p>
+        </div>
+
+        <div class="red_line_square">
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">レシートも請求書も撮るだけ入力完了</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">差額は即アラートでミスを防止</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">収支表まで自動転記で手作業ゼロ</p>
+          </div>
+          <div class="check_icon_img_text_content">
+            <img class="check_icon_img" src="./img/pc/check-icon.png" alt="チェックアイコン">
+            <p class="red_line_square_text">未入金を逃さずキャッシュフロー改善</p>
+          </div>
+        </div>
+
+        <div class="bg_square">
+          <div class="before_after_text_content">
+            <p class="before_after_text">Before</p>
+            <span class="vartical_line"></span>
+            <p class="before_after_jp_text_heading">月末の経理担当者</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>8時間かけて請求書を1枚ずつ手入力</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>3時間かけて売掛金と入金を1円単位で照合</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>連日22時退社、残業代15万円 / 月→ 月末は“帰れない日”が当たり前</li>
+          </ul>
+        </div>
+        <div class="bg_square red">
+          <div class="before_after_text_content">
+            <p class="before_after_text red">After</p>
+            <span class="vartical_line red"></span>
+            <p class="before_after_jp_text_heading red">AI導入後</p>
+          </div>
+          <ul>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>請求書は写真1枚、5分で入力完了</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>差額があれば即アラート＆原因特定</li>
+            <li class="square_bottom_text"><span class="dot_marker">・</span>月末でも定時退社、年間180万円コスト削減</li>
+          </ul>
+        </div>
+        <p class="display_after_select_bottom_text">※その他どの部署でも業務改善が可能です</p>
+      </div>
+    </div>
+
+
+  </section>
+
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./js/hamburger-menu.js"></script>
+  <script src="./js/select-menu.js"></script>
 </body>
 
 </html>
