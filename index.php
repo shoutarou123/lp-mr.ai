@@ -214,7 +214,8 @@
             </h4>
           </div>
           <div class="tuyomi_img_p_content">
-            <p>現場の状況に合わせた解決策を設計<br class="hidden">し、導<br class="sp">入から定着までサポート。コ<br class="hidden">ンサルティン<br class="sp">グ終了後も成果が続<br class="hidden">く、持続型の業務改善<br class="sp">を実現しま<br class="hidden">す。</p>
+            <p>現場の状況に合わせた解決策を設計<br class="hidden">し、導<br class="sp">入から定着までサポート。コ<br class="hidden">ンサルティン<br
+                class="sp">グ終了後も成果が続<br class="hidden">く、持続型の業務改善<br class="sp">を実現しま<br class="hidden">す。</p>
           </div>
         </div>
       </div>
@@ -227,7 +228,8 @@
             </h4>
           </div>
           <div class="tuyomi_img_p_content">
-            <p>戦略策定だけでなく、現場での定着<br class="hidden">まで責<br class="sp">任を持ってサポート。 既存の<br class="hidden">業務を分析<br class="sp">し、最適な生成AIと組み<br class="hidden">合わせて、明日か<br class="sp">ら使える変化を生<br class="hidden">み出します。</p>
+            <p>戦略策定だけでなく、現場での定着<br class="hidden">まで責<br class="sp">任を持ってサポート。 既存の<br class="hidden">業務を分析<br
+                class="sp">し、最適な生成AIと組み<br class="hidden">合わせて、明日か<br class="sp">ら使える変化を生<br class="hidden">み出します。</p>
           </div>
         </div>
       </div>
@@ -239,12 +241,72 @@
             </h4>
           </div>
           <div class="tuyomi_img_p_content">
-            <p>企業向けAI研修を通して積み上げた<br class="hidden">成功事<br class="sp">例と知見が、私たちの武器。<br class="hidden">机上の空論で<br class="sp">はなく、成果が続くAI<br class="hidden">活用法を提案しま<br class="sp">す。</p>
+            <p>企業向けAI研修を通して積み上げた<br class="hidden">成功事<br class="sp">例と知見が、私たちの武器。<br class="hidden">机上の空論で<br
+                class="sp">はなく、成果が続くAI<br class="hidden">活用法を提案しま<br class="sp">す。</p>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
+  <section class="himitu_section">
+    <div class="h2_content_tuyomi himitu">
+      <h2>
+        <div class="img_wrap himitu">
+          <div class="text_gyoumu_content">
+            <span class="text_gyoumu">業務改善を叶える</span>
+          </div>
+          <div>
+            <img src="./img/pc/mr-ai.png" srcset="./img/pc/mr-ai@2x.png 2x, ./img/pc/mr-ai.png 1x" width="262"
+              height="54" alt="ミスターAI">
+            <span class="text_no himitu">の</span>
+            <span class="text_red tuyomi himitu">秘密</span>
+          </div>
+        </div>
+
+      </h2>
+    </div>
+
+    <div class="himitu_content_flex">
+      <div class="himitu_img_content top">
+        <img src="./img/pc/himitu-img.png" srcset="./img/pc/himitu-img@2x.png 2x ./img/pc/himitu-img.png 1x" width="468"
+          height="320" alt="504.2時間/月の業務効率化を実現 正社員3人分の稼働時間が浮く計算です">
+        <img class="sp_himitu_img" src="./img/sp/sp-himitu-img.png"
+          srcset="./img/sp/sp-himitu-img@2x.png 2x, ./img/sp/sp-himitu-img 1x" width="343" height="235"
+          alt="504.2時間/月の業務効率化を実現 正社員3人分の稼働時間が浮く計算です">
+      </div>
+      <div class="himitu_text_content">
+        <h3>システム・業務改善の<br>プロが提案する“AI戦略”</h3>
+        <p>
+          システム開発や業務改善の現場で培ったノウハ<br class="sp">ウを土台に、AI活用へと<br class="hidden">進化。その経験を活か<br
+            class="sp">し、いち早くAIを導入することで、504.2時間<br class="sp">／<br class="hidden">月（＝正社員3人分）の業務効率化を実現し<br
+            class="sp">ています。
+        </p>
+      </div>
+    </div>
+    <div class="himitu_content_flex bottom">
+      <div class="himitu_text_content bottom">
+        <h3>テクノロジーを<br>利益に変える視点</h3>
+        <p>
+          株式会社taiziii代表の加藤は、エンジニア領域<br class="sp">とビジネス領域の両方を<br class="hidden">横断し、現場課題に直<br
+            class="sp">結する形でテクノロジーを活用できます。「<strong class="text_red">形<br class="sp">式<br
+              class="hidden">的なAI導入</strong>」ではなく、利益を増やすための<br class="sp">最適なAI活用を提案しま<br class="hidden">す。
+        </p>
+      </div>
+      <div class="himitu_img_content bottom">
+        <img class="sp_daihyou_img" src="./img/pc/daihyou.png" srcset="./img/pc/daihyou@2x.png 2x ./img/pc/daihyou.png 1x" width="468"
+          height="320" alt="株式会社taiziii代表加藤">
+      </div>
+    </div>
+    <div class="cta_button_content">
+      <a href="">
+        <img src="./img/pc/cta-button.png" srcset="./img/pc/cta-button@2x.png 2x ./img/pc/cta-button.png 1x"
+          width="1100" height="300" alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
+        <img class="sp_cta_button_img" src="./img/sp/sp-cta-button.png"
+          srcset="./img/sp/sp-cta-button@2x.png 2x ./img/sp/sp-cta-button.png 1x"
+          alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
+      </a>
+    </div>
   </section>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
