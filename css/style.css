@@ -630,7 +630,213 @@ header {
   display: none;
 }
 
-/* ---------------  --------------------*/
+/* --------------- kaizen --------------------*/
+.kaizen_section {
+  background-color: #F8F8F8;
+  padding-top: 53px;
+  padding-bottom: 60px;
+}
+
+.kaizen_h2_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 51px;
+}
+
+.kaizen_h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.select_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.select_text_content {
+  border-bottom: solid 1px #CBCBCB;
+  width: 355px;
+  display: flex;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.select_text_content:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.select_text_arrow_content {
+  width: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+
+.vertical_red_line {
+  width: 4px;
+  height: 35px;
+  border-left: solid 2px #DB0000;
+  margin-right: 12px;
+}
+
+.vertical_red_line {
+  visibility: hidden;
+}
+
+.select_text_content.active .vertical_red_line {
+  visibility: visible;
+}
+
+.select_text_content.active .select_text,
+.select_text_content.active .arrow {
+  color: #DB0000;
+}
+
+.select_text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.select_text,
+.arrow {
+  color: #B5B5B5;
+}
+
+.arrow {
+  position: relative;
+  top: 3px;
+  left: -7px;
+}
+
+.display_after_select {
+  width: 690px;
+  background-color: #FFF;
+  padding-top: 29px;
+  padding-bottom: 33px;
+  padding-left: 32px;
+  box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.2);
+}
+
+.midashi_content {
+  width: 656px;
+  border-bottom: solid 4px #F0F0F0;
+  padding-bottom: 13px;
+  margin-bottom: 20px;
+}
+
+.midashi {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.setumei_content {
+  margin-bottom: 33px;
+}
+
+.setumei {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.red_line_square {
+  border: solid 1px #DB0000;
+  border-radius: 10px;
+  width: 628px;
+  padding-top: 24px;
+  padding-bottom: 9px;
+  padding-left: 24px;
+  margin-bottom: 32px;
+}
+
+.check_icon_img_text_content {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.check_icon_img {
+  margin-right: 12px;
+}
+
+.red_line_square_text {
+  color: #DB0000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bg_square {
+  background-color: #F5F5F5;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 11px;
+  border-radius: 10px;
+  width: 640px;
+  margin-bottom: 15px;
+}
+
+.before_after_text_content {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.before_after_text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #989898;
+  margin-right: 16px;
+}
+
+.vartical_line {
+  border-right: solid 1px #989898;
+  height: 31px;
+  margin-right: 16px;
+}
+
+.before_after_jp_text_heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #989898;
+}
+
+.square_bottom_text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bg_square.red {
+  background-color: #FEF3F3;
+  margin-bottom: 18px;
+  padding-bottom: 2px;
+
+}
+
+.before_after_text.red,
+.before_after_jp_text_heading.red {
+  color: #DB0000;
+}
+
+.vartical_line.red {
+  border-right: solid 1px #DB0000;
+}
+
+.display_after_select_bottom_text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.display_after_select {
+  display: none;
+}
+
+.display_after_select#keiri {
+  display: block;
+}
+
+
 
 
 
@@ -892,6 +1098,55 @@ header {
   .worries_center_content img {
     width: 300px;
     height: auto;
+  }
+
+  /* -------------- kaizen ---------------- */
+  .select_text_content {
+    width: 280px;
+  }
+
+  .select_text {
+    font-size: 23px;
+  }
+
+  .display_after_select {
+    width: 620px;
+  }
+
+  .midashi_content {
+    width: 580px;
+  }
+
+  .midashi {
+    font-size: 27px;
+  }
+
+  .setumei {
+    font-size: 17px;
+  }
+
+  .red_line_square_text {
+    font-size: 19px;
+  }
+
+  .square_bottom_text {
+    font-size: 17px;
+  }
+
+  .before_after_text {
+    font-size: 23px;
+  }
+
+  .display_after_select_bottom_text {
+    font-size: 17px;
+  }
+
+  .red_line_square {
+    width: 550px;
+  }
+
+  .bg_square {
+    width: 560px;
   }
 
 }
@@ -1211,6 +1466,10 @@ header {
   }
 
   /* ----------- himitu ----------------- */
+  .himitu_section {
+    padding-bottom: 0px;
+  }
+
   .h2_content_tuyomi.himitu {
     display: block;
   }
@@ -1302,6 +1561,67 @@ header {
     max-width: 1000px !important;
     height: auto !important;
     aspect-ratio: 375 / 226 !important;
+  }
+
+  /* -------------- kaizen --------------------- */
+  .select_text_arrow_content {
+    margin-top: 0px;
+  }
+
+  .select_content_flex {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .select_text_content {
+    background-color: #FFF;
+    padding-bottom: 0px;
+    width: 500px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+  }
+
+  .vertical_red_line {
+    height: 40px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .select_text_content {
+    border-bottom: none;
+  }
+
+  .midashi_content {
+    width: 410px;
+  }
+
+  .check_icon_img_text_content {
+    align-items: center;
+  }
+
+  .display_after_select {
+    width: 437px;
+  }
+
+  .red_line_square {
+    width: 380px;
+  }
+
+  .check_icon_img {
+    width: 20px;
+    aspect-ratio: 20 / 29;
+    height: auto;
+  }
+
+  .bg_square {
+    width: 388px;
+  }
+
+  .kaizen_space {
+    margin-left: 18px;
   }
 
 }
@@ -1472,6 +1792,54 @@ header {
   .himitu_text_content p {
     font-size: 19px;
   }
+
+  /* ---------- kaizen --------------- */
+  .display_after_select {
+    width: 390px;
+  }
+
+  .kaizen_h2 {
+    font-size: 34px;
+  }
+
+  .select_text_content {
+    width: 400px;
+  }
+
+  .midashi {
+    font-size: 22px;
+  }
+
+  .midashi_content {
+    width: 350px;
+  }
+
+  .red_line_square_text {
+    font-size: 18px;
+  }
+
+  .square_bottom_text {
+    font-size: 16px;
+  }
+
+  .display_after_select_bottom_text {
+    font-size: 14px;
+  }
+
+  .kaizen_space {
+    margin-left: 15px;
+  }
+
+  .red_line_square {
+    padding-left: 16px;
+    width: 340px;
+  }
+
+  .bg_square {
+    width: 340px;
+  }
+
+
 
 }
 
@@ -1649,6 +2017,93 @@ header {
 
   .himitu_img_content.bottom img {
     width: 343px;
+  }
+
+  /* ------------ kaizen ---------------- */
+  .kaizen_section {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .kaizen_h2_content {
+    margin-bottom: 24px;
+  }
+
+  .kaizen_h2 {
+    font-size: 22px;
+  }
+
+  .select_text_content {
+    width: 343px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .select_text {
+    font-size: 16px;
+  }
+
+  .midashi {
+    font-size: 20px;
+  }
+
+  .setumei {
+    font-size: 16px;
+  }
+
+  .check_icon_img {
+    width: 16px;
+  }
+
+  .red_line_square_text {
+    font-size: 16px;
+  }
+
+  .before_after_text {
+    font-size: 18px;
+  }
+
+  .before_after_jp_text_heading {
+    font-size: 16px;
+  }
+
+  .vartical_line {
+    height: 24px;
+  }
+
+  .square_bottom_text {
+    font-size: 14px;
+  }
+
+  .display_after_select_bottom_text {
+    font-size: 12px;
+  }
+
+  .red_line_square {
+    width: 290px;
+    margin-bottom: 16px;
+  }
+
+  .bg_square {
+    width: 290px;
+  }
+
+  .display_after_select {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    width: 326px;
+  }
+
+  .midashi_content {
+    width: 308px;
+  }
+
+  .bg_square.red {
+    margin-bottom: 12px;
+  }
+
+  .setumei_content {
+    margin-bottom: 16px;
   }
 
 }
@@ -1956,6 +2411,68 @@ header {
     margin-bottom: 48px;
   }
 
+  /* ------------ kaizen ----------------- */
+  .kaizen_section {
+    padding-top: 45px;
+  }
+
+  .select_text_content {
+    margin-bottom: 8px;
+  }
+
+  .select_content_flex {
+    gap: 17px;
+  }
+
+  .display_after_select {
+    padding-top: 16px;
+  }
+
+  .midashi_content {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .red_line_square {
+    width: 295px;
+    padding-left: 14px;
+  }
+
+  .check_icon_img {
+    margin-right: 8px;
+  }
+
+  .red_line_square {
+    padding-top: 16px;
+    padding-bottom: 3px;
+  }
+
+  .before_after_text {
+    margin-right: 11px;
+  }
+
+  .vartical_line {
+    margin-right: 12px;
+  }
+
+  .kaizen_space {
+    margin-left: 14px;
+  }
+
+  .square_bottom_text {
+    line-height: 21px;
+  }
+
+  .bg_square {
+    width: 294px;
+    margin-bottom: 6px;
+  }
+
+  .bg_square.red {
+    margin-bottom: 17px;
+  }
+
+
 }
 
 @media screen and (max-width: 370px) {
@@ -2048,6 +2565,53 @@ header {
   .himitu_text_content p {
     font-size: 15px;
   }
+
+  /*  -------------- kaizen -------------------- */
+  .select_text_content {
+    width: 310px;
+  }
+
+  .midashi {
+    font-size: 18px;
+  }
+
+  .setumei {
+    font-size: 14px;
+  }
+
+  .red_line_square_text {
+    font-size: 14px;
+  }
+
+  .square_bottom_text {
+    font-size: 13px;
+  }
+
+  .red_line_square {
+    width: 270px;
+  }
+
+  .bg_square {
+    width: 270px;
+  }
+
+  .display_after_select {
+    width: 303px;
+  }
+
+  .midashi_content {
+    width: 287px;
+  }
+
+  .before_after_text_content {
+    display: flex;
+    margin-bottom: 12px;
+  }
+
+  .square_bottom_text {
+    margin-bottom: 8px;
+  }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -2058,5 +2622,7 @@ header {
   .h4_content {
     margin-bottom: 10px;
   }
+
+
 
 }
