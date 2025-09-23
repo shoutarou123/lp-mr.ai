@@ -183,9 +183,66 @@
       </p>
     </div>
     <div class="shinjoshiki_img_content">
-      <img src="./img/pc/shinjoshiki-img.png" srcset="./img/pc/shinjoshiki-img@2x.png 2x, ./img/pc/shinjoshiki-img.png 1x"
-        width="1100" height="324" alt="AI活用の説明">
-      <img class="sp_shinjoshiki_img" src="./img/sp/sp-shinjoshiki-img.png" srcset="./img/sp/sp-shinjoshiki-img@2x.png 2x, ./img/sp/sp-shinjoshiki-img.png 1x" width="311" height="317" alt="AI活用の説明">
+      <img src="./img/pc/shinjoshiki-img.png"
+        srcset="./img/pc/shinjoshiki-img@2x.png 2x, ./img/pc/shinjoshiki-img.png 1x" width="1100" height="324"
+        alt="AI活用の説明">
+      <img class="sp_shinjoshiki_img" src="./img/sp/sp-shinjoshiki-img.png"
+        srcset="./img/sp/sp-shinjoshiki-img@2x.png 2x, ./img/sp/sp-shinjoshiki-img.png 1x" width="311" height="317"
+        alt="AI活用の説明">
+    </div>
+  </section>
+
+  <section class="tuyomi_section">
+    <div class="h2_content_tuyomi">
+      <h2>
+        <span class="img_wrap">
+          <img src="./img/pc/mr-ai.png" srcset="./img/pc/mr-ai@2x.png 2x, ./img/pc/mr-ai.png 1x" width="262" height="54"
+            alt="ミスターAI">
+        </span>
+        <span class="text_no">の</span>
+        <span class="text_red tuyomi">強み</span>
+      </h2>
+    </div>
+
+    <div class="tuyomi_img_content_wrapper_flex">
+      <div class="tuyomi_img_content">
+        <div class="tuyomi_img_text_content">
+          <div class="h4_content">
+            <h4>
+              成果に直結する“<span class="text_red">使えるAI</span>”<br>
+              <span class="text_center">をオーダーメイド</span>
+            </h4>
+          </div>
+          <div class="tuyomi_img_p_content">
+            <p>現場の状況に合わせた解決策を設計<br class="hidden">し、導<br class="sp">入から定着までサポート。コ<br class="hidden">ンサルティン<br class="sp">グ終了後も成果が続<br class="hidden">く、持続型の業務改善<br class="sp">を実現しま<br class="hidden">す。</p>
+          </div>
+        </div>
+      </div>
+      <div class="tuyomi_img_content center">
+        <div class="tuyomi_img_text_content">
+          <div class="h4_content">
+            <h4>
+              AI戦略を“<span class="text_red">机上</span>”で<br>
+              <span class="text_center">終わらせない</span>
+            </h4>
+          </div>
+          <div class="tuyomi_img_p_content">
+            <p>戦略策定だけでなく、現場での定着<br class="hidden">まで責<br class="sp">任を持ってサポート。 既存の<br class="hidden">業務を分析<br class="sp">し、最適な生成AIと組み<br class="hidden">合わせて、明日か<br class="sp">ら使える変化を生<br class="hidden">み出します。</p>
+          </div>
+        </div>
+      </div>
+      <div class="tuyomi_img_content right">
+        <div class="tuyomi_img_text_content">
+          <div class="h4_content">
+            <h4>実践の場から生まれた、<br>
+              本当の使える<span class="text_red">AIノウハウ</span>
+            </h4>
+          </div>
+          <div class="tuyomi_img_p_content">
+            <p>企業向けAI研修を通して積み上げた<br class="hidden">成功事<br class="sp">例と知見が、私たちの武器。<br class="hidden">机上の空論で<br class="sp">はなく、成果が続くAI<br class="hidden">活用法を提案しま<br class="sp">す。</p>
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>

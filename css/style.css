@@ -432,10 +432,102 @@ header {
 .shinjoshiki_img_content {
   display: flex;
   justify-content: center;
+  margin-bottom: -128px;
+  z-index: 2;
 }
 
 .sp_shinjoshiki_img {
   display: none;
+}
+
+/* -------------- tuyomi ---------------- */
+.tuyomi_section {
+  background-color: #F8F8F8;
+  z-index: 1;
+  padding-bottom: 60px;
+}
+
+.h2_content_tuyomi {
+  padding-top: 195px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 42px;
+}
+
+.h2_content_tuyomi h2 {
+  display: flex;
+  align-items: center;
+}
+
+.text_no {
+  font-size: 34px;
+  font-weight: bold;
+  position: relative;
+  top: -3px;
+}
+
+.text_red.tuyomi {
+  font-size: 44px;
+  position: relative;
+  top: -6px;
+  left: 2px;
+}
+
+.tuyomi_img_content_wrapper_flex {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.tuyomi_img_content {
+  background-image: url(../img/pc/tuyomi-img-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 368px;
+  aspect-ratio: 368 / 499;
+  height: auto;
+}
+
+.tuyomi_img_content.center {
+  background-image: url(../img/pc/tuyomi-img-2.png);
+}
+
+.tuyomi_img_content.right {
+  background-image: url(../img/pc/tuyomi-img-3.png);
+}
+
+.tuyomi_img_text_content {
+  padding-top: 237px;
+}
+
+.h4_content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.h4_content h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text_center {
+  display: flex;
+  justify-content: center;
+}
+
+.tuyomi_img_p_content {
+  display: flex;
+  justify-content: center;
+}
+
+.tuyomi_img_p_content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.9px;
 }
 
 
@@ -671,6 +763,32 @@ header {
     aspect-ratio: 1100 / 324;
     height: auto;
   }
+
+  /* ------------- tuyomi --------------------- */
+  .tuyomi_img_content_wrapper_flex {
+    gap: 0px;
+  }
+
+  .tuyomi_img_content {
+    width: 330px;
+  }
+
+  .tuyomi_img_text_content {
+    padding-top: 220px;
+  }
+
+  .h4_content {
+    margin-bottom: 7px;
+  }
+
+  .h4_content h4 {
+    font-size: 22px;
+  }
+
+  .tuyomi_img_p_content p {
+    font-size: 17px;
+    line-height: 25px;
+  }
 }
 
 
@@ -860,6 +978,48 @@ header {
     height: auto;
   }
 
+  /* --------------- tuyomi ----------------------- */
+  .tuyomi_img_content_wrapper_flex {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .tuyomi_img_content {
+    background-image: url(../img/sp/sp-tuyomi-img-1.png);
+  }
+
+  .tuyomi_img_content.center {
+    background-image: url(../img/sp/sp-tuyomi-img-2.png);
+  }
+
+  .tuyomi_img_content.right {
+    background-image: url(../img/sp/sp-tuyomi-img-3.png);
+  }
+
+  .tuyomi_img_content,
+  .tuyomi_img_content.center,
+  .tuyomi_img_content.right {
+    width: 550px;
+    aspect-ratio: 361 / 376;
+  }
+
+  .tuyomi_img_text_content {
+    padding-top: 264px;
+  }
+
+  .h4_content h4 {
+    font-size: 33px;
+  }
+
+  .h4_content {
+    margin-bottom: 12px;
+  }
+
+  .tuyomi_img_p_content p {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -972,7 +1132,46 @@ header {
 
   .sp_shinjoshiki_img {
     width: 400px;
+    height: auto;
   }
+
+  /* ------------- tuyomi ------------------ */
+  .img_wrap img {
+    width: 180px;
+    height: auto;
+  }
+
+  .text_no {
+    font-size: 24px;
+  }
+
+  .text_red.tuyomi {
+    font-size: 34px;
+  }
+
+  .h2_content_tuyomi {
+    margin-bottom: 30px;
+  }
+
+  .tuyomi_img_content,
+  .tuyomi_img_content.center,
+  .tuyomi_img_content.right {
+    width: 420px;
+  }
+
+  .h4_content h4 {
+    font-size: 24px;
+  }
+
+  .tuyomi_img_p_content p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .tuyomi_img_text_content {
+    padding-top: 220px;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -1072,8 +1271,50 @@ header {
   }
 
   .sp_shinjoshiki_img {
-    width: 311px;
+    width: 341px;
   }
+
+  /* ------------- tuyomi ------------------ */
+  .img_wrap img {
+    width: 155px;
+    height: auto;
+  }
+
+  .text_no {
+    font-size: 24px;
+  }
+
+  .text_red.tuyomi {
+    font-size: 32px;
+  }
+
+  .h2_content_tuyomi {
+    margin-bottom: 30px;
+  }
+
+  .tuyomi_img_content,
+  .tuyomi_img_content.center,
+  .tuyomi_img_content.right {
+    width: 360px;
+  }
+
+  .h4_content {
+    margin-bottom: 6px;
+  }
+
+  .h4_content h4 {
+    font-size: 22px;
+  }
+
+  .tuyomi_img_p_content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .tuyomi_img_text_content {
+    padding-top: 176px;
+  }
+
 
 
 }
@@ -1270,11 +1511,55 @@ header {
 
   .sub_text_content {
     margin-top: 24px;
-    margin-bottom: 43px;
+    margin-bottom: 27px;
   }
 
   .sp_sub_text {
     line-height: 28px;
+  }
+
+  /* --------------- tuyomi ------------------- */
+  .tuyomi_section {
+    padding-bottom: 25px;
+  }
+
+  .h2_content_tuyomi {
+    padding-top: 181px;
+  }
+
+  .text_no {
+    top: -6px;
+    left: 5px;
+  }
+
+  .text_red.tuyomi {
+    top: -10px;
+    left: 3px;
+  }
+
+  .h2_content_tuyomi {
+    margin-bottom: 14px;
+  }
+
+  .h4_content h4 {
+    line-height: 30px;
+    letter-spacing: -2.0px;
+  }
+
+  .tuyomi_img_content {
+    margin-bottom: 7px;
+  }
+
+  .tuyomi_img_content.center {
+    margin-bottom: 5px;
+  }
+
+  .h4_content {
+    margin-bottom: 16px;
+  }
+
+  .tuyomi_img_p_content p {
+    letter-spacing: 0.2px;
   }
 
 }
@@ -1327,10 +1612,44 @@ header {
   .sub_text_content p {
     font-size: 17px;
   }
+
+  .sp_shinjoshiki_img {
+    width: 320px;
+  }
+
+  /* --------------- tuyomi ------------------- */
+  .tuyomi_img_content,
+  .tuyomi_img_content.center,
+  .tuyomi_img_content.right {
+    width: 335px;
+  }
+
+  .h4_content h4 {
+    font-size: 20px;
+  }
+
+  .h4_content {
+    margin-bottom: 6px;
+  }
+
+  .tuyomi_img_text_content {
+    padding-top: 170px;
+  }
+
+  .tuyomi_img_p_content p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
 }
 
 @media screen and (max-width: 360px) {
   .sp_icon_text {
     width: 100px;
   }
+
+  .h4_content {
+    margin-bottom: 10px;
+  }
+
 }
