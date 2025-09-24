@@ -24,26 +24,26 @@
     <nav class="navigation">
       <ul class="navigation_list">
         <li class="navigation_list_item">
-          <a class="navigation_link">料金
+          <a class="navigation_link" href="#ryoukin">料金
             <img class="right_arrow" src="./img/sp/right-arrow.png"
               srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
           </a>
         </li>
         <li class="navigation_list_item">
-          <a class="navigation_link">活用事例
+          <a class="navigation_link" href="#katuyou">活用事例
             <img class="right_arrow" src="./img/sp/right-arrow.png"
               srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
 
           </a>
         </li>
         <li class="navigation_list_item">
-          <a class="navigation_link">サービス導入までの流れ
+          <a class="navigation_link" href="#service">サービス導入までの流れ
             <img class="right_arrow" src="./img/sp/right-arrow.png"
               srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
           </a>
         </li>
         <li class="navigation_list_item">
-          <a class="navigation_link">よくあるご質問
+          <a class="navigation_link" href="#qa">よくあるご質問
             <img class="right_arrow" src="./img/sp/right-arrow.png"
               srcset="./img/sp/right-arrow@2x.png 2x, ./img/sp/right-arrow.png 1x" alt="右矢印">
           </a>
@@ -68,13 +68,13 @@
         <nav class="header_menu_nav">
           <ul class="header_menu_ul">
             <li>
-              <a href="">料金</a>
+              <a href="#ryoukin">料金</a>
             </li>
-            <li><a href="">活用事例</a></li>
-            <li><a href="">サービス導入までの流れ</a></li>
-            <li><a href="">よくあるご質問</a></li>
+            <li><a href="#katuyou">活用事例</a></li>
+            <li><a href="#service">サービス導入までの流れ</a></li>
+            <li><a href="#qa">よくあるご質問</a></li>
             <li>
-              <a href="">
+              <a href="#contact">
                 <img src="./img/pc/contact-button.png"
                   srcset="./img/pc/contact-button@2x.png 2x, ./img/pc/contact-button.png 1x" width="200" height="80"
                   alt="お問い合わせボタン">
@@ -313,7 +313,7 @@
     </div>
   </section>
 
-  <section class="kaizen_section">
+  <section class="kaizen_section" id="katuyou">
     <div class="h2_text_content">
       <h2 class="h2_text">具体的な業務改善イメージ</h2>
     </div>
@@ -632,7 +632,7 @@
     </div>
   </section>
 
-  <section class="plan_section">
+  <section class="plan_section" id="ryoukin">
     <div class="h2_text_content plan">
       <h2 class="h2_text">料金プラン</h2>
     </div>
@@ -663,7 +663,7 @@
     </div>
   </section>
 
-  <section class="service_section">
+  <section class="service_section" id="service">
     <div class="h2_text_content service">
       <h2 class="h2_text">サービス導入までの流れ</h2>
     </div>
@@ -783,7 +783,7 @@
     </div>
   </section>
 
-  <section class="qa_section">
+  <section class="qa_section" id="qa">
     <div class="h2_text_content qa">
       <h2 class="h2_text">よくあるご質問</h2>
     </div>
@@ -924,7 +924,7 @@
     </div>
   </section>
 
-  <section class="contact_section">
+  <section class="contact_section" id="contact">
     <div class="h2_text_content contact">
       <h2 class="h2_text">お問い合わせ</h2>
     </div>
@@ -996,21 +996,42 @@
         <label for="consent" class="consent_text">プライバシーポリシーに同意する</label>
       </div>
 
-      <button type="submit" class="submit_img_content">
+      <div type="submit" class="submit_img_content">
         <img class="submit_img" src="./img/pc/submit.png" srcset="./img/pc/submit@2x.png 2x, /img/pc/submit.png 1x"
           width="416" height="70" alt="送信する">
-        <img class="sp_submit_img" src="./img/sp/sp-submit.png" srcset="./img/sp/sp-submit@2x.png 2x, /img/sp/sp-submit.png 1x"
-          width="343" height="50" alt="送信する">
-      </button>
+        <img class="sp_submit_img" src="./img/sp/sp-submit.png"
+          srcset="./img/sp/sp-submit@2x.png 2x, /img/sp/sp-submit.png 1x" width="343" height="50" alt="送信する">
+      </div>
     </form>
-
   </section>
+
+  <footer>
+    <div class="footer_content">
+      <div class="taizii_img_content">
+        <img class="taizii_img" src="./img/pc/taiziii.png" srcset="./img/pc/taiziii@2x.png 2x, ./img/pc/taiziii.png 1x"
+          width="108" height="32" alt="taiziii">
+      </div>
+      <div class="address_content">
+        <p class="post_code_text">〒150-0031</p>
+        <p class="address_text">東京都渋谷区桜丘町31番14号<br class="sp"> 岡三桜丘ビル SLACK SHIBUYA 801号室</p>
+      </div>
+      <div class="company_content">
+        <a href="">
+          <p class="company_text">株式会社taiziii</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <img class="up_arrow_img" id="js-pageTop" src="./img/pc/up-arrow.png"
+    srcset="./img/pc/up-arrow@2x.png 2x, ./img/pc/up-arrow.png 1x" width="60" height="60" alt="上矢印アイコン">
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./js/hamburger-menu.js"></script>
   <script src="./js/select-menu.js"></script>
   <script src="./js/form.js"></script>
   <script src="./js/q-a.js"></script>
+  <script src="./js/up-arrow.js"></script>
 </body>
 
 </html>

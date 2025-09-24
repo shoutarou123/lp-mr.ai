@@ -2,6 +2,10 @@ html {
   font-family: "Noto Sans JP", "Zen Maru Gothic", "DM Sans", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1169,6 +1173,45 @@ textarea::placeholder {
   border: solid 1px #D94141;
 }
 
+/* --------- footer ------------ */
+.footer_content {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.post_code_text,
+.address_text,
+.company_text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.taizii_img_content {
+  margin-bottom: 32px;
+}
+
+.address_content {
+  margin-bottom: 16px;
+}
+
+.company_content a {
+  color: #0D0D0D;
+  text-decoration: underline;
+}
+
+.up_arrow_img {
+  position: fixed;
+  right: 20%;
+  bottom: 100px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.up_arrow_img {
+  display: none;
+}
 
 @media screen and (min-width: 1921px) {
   .fv_content_flex {
@@ -1511,6 +1554,16 @@ textarea::placeholder {
     height: auto !important;
   }
 
+  /* ---------- footer --------------- */
+  .footer_content {
+    width: 980px;
+  }
+
+  /* ---------- up-arrow --------------- */
+  .up_arrow_img {
+    right: 10%;
+  }
+
 }
 
 @media screen and (max-width: 1120px) {
@@ -1606,7 +1659,6 @@ textarea::placeholder {
   }
 
   header {
-    background-color: aqua;
     padding: 38px 0px;
   }
 
@@ -2116,6 +2168,12 @@ textarea::placeholder {
     margin-bottom: 10px;
   }
 
+  /* ------------- footer ---------------- */
+
+  .footer_content {
+    width: 550px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -2374,6 +2432,10 @@ textarea::placeholder {
     width: 385px;
   }
 
+  /* --------------- footer -------------------- */
+  .footer_content {
+    width: 410px;
+  }
 
 }
 
@@ -2752,6 +2814,17 @@ textarea::placeholder {
     width: 343px;
     aspect-ratio: 416 / 70;
     height: auto;
+  }
+
+  /* ----------- footer -------------- */
+  .footer_content {
+    width: 350px;
+  }
+
+  .post_code_text,
+  .address_text,
+  .company_text {
+    font-size: 12px;
   }
 
 }
@@ -3304,6 +3377,15 @@ textarea::placeholder {
     display: block;
   }
 
+  /* ----------- footer ----------------- */
+  .footer_content {
+    width: 344px;
+    padding-top: 55px;
+  }
+
+  .taizii_img_content {
+    margin-bottom: 13px;
+  }
 
 }
 
@@ -3507,6 +3589,11 @@ textarea::placeholder {
     height: auto;
   }
 
+  /* ---------- footer ------------ */
+  .footer_content {
+    width: 327px;
+  }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -3517,7 +3604,4 @@ textarea::placeholder {
   .h4_content {
     margin-bottom: 10px;
   }
-
-
-
 }

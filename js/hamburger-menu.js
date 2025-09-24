@@ -17,4 +17,11 @@ $(function () {
     $header.css('background-color', '');
     $navigation.slideToggle(300);
   });
+
+  $('.navigation_link').click(function() {
+    $hamburgerCloseBtn.removeClass('hidden');
+    $hamburgerOpenBtn.addClass('hidden');
+    $header.css('background-color', '#FFF');
+    $navigation.slideUp(300);
+  });
 });
