@@ -976,6 +976,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .plus_icon:hover,
 .cross_icon:hover {
   cursor: pointer;
@@ -1015,6 +1016,157 @@ header {
 
 .q_a_content.two_or_more.last {
   margin-bottom: 40px;
+}
+
+/* ---------------- contact ------------------- */
+.contact_section {
+  background-color: #F8F8F8;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.h2_text_content.contact {
+  margin-bottom: 34px;
+}
+
+.contact_text_content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 53px;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.form_content_flex {
+  width: 800px;
+  border-top: solid 1px #CBCBCB;
+  border-bottom: solid 1px #CBCBCB;
+  padding-top: 28px;
+  padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form_content_flex.two_or_more {
+  border-top: none;
+}
+
+.label_hissu_icon_content {
+  display: flex;
+  align-items: center;
+  margin-top: -28px;
+}
+
+.label_text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.input_content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input {
+  border: solid 1px #CCCCCC;
+  border-radius: 4px;
+  background-color: #FFF;
+  width: 530px;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #A5A5A5;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.textarea {
+  border: solid 1px #CCCCCC;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding-left: 20px;
+  padding-top: 13px;
+  width: 530px;
+  height: 225px;
+}
+
+.label_nini_icon_content {
+  display: flex;
+  padding-top: 12px;
+}
+
+.form_textarea_flex {
+  padding-top: 28px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #CBCBCB;
+  padding-bottom: 29px;
+  margin-bottom: 52px;
+}
+
+.checkbox_text_content_flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #CCCC;
+  border-radius: 4px;
+}
+
+.consent_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sp_submit_img {
+  display: none;
+}
+
+.submit_img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.error_message {
+  color: #D94141;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  top: -2px;
+}
+
+.checkbox_text_content_flex {
+  display: flex;
+  gap: 12px;
+}
+
+.error_message {
+  visibility: hidden;
+}
+
+.input_error {
+  border: solid 1px #D94141;
 }
 
 
@@ -1936,6 +2088,34 @@ header {
   .q_a_content {
     width: 500px;
   }
+
+  /* ------------- contact ------------ */
+  .contact_text {
+    margin-bottom: 40px;
+  }
+
+  .form_content_flex {
+    width: 553px;
+    flex-flow: column;
+    align-items: start;
+    padding-top: 50px;
+  }
+
+  .form_textarea_flex {
+    padding-top: 10px;
+    flex-flow: column;
+    width: 553px;
+    margin-bottom: 30px;
+  }
+
+  .label_hissu_icon_content {
+    margin-bottom: 10px;
+  }
+
+  .label_nini_icon_content {
+    margin-bottom: 10px;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -2175,6 +2355,23 @@ header {
 
   .answer_text {
     font-size: 15px;
+  }
+
+  /* -------------- contact ------------------ */
+  .form_content_flex {
+    width: 400px;
+  }
+
+  .input {
+    width: 382px;
+  }
+
+  .form_textarea_flex {
+    width: 415px;
+  }
+
+  .textarea {
+    width: 385px;
   }
 
 
@@ -2509,6 +2706,52 @@ header {
 
   .answer_text {
     font-size: 14px;
+  }
+
+  /* --------------- contact ------------------- */
+  .contact_text {
+    font-size: 16px;
+  }
+
+  .label_text {
+    font-size: 16px;
+  }
+
+  .hissu_icon {
+    width: 42px;
+    aspect-ratio: 42 / 26;
+    height: auto;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  .consent_text {
+    font-size: 14px;
+  }
+
+  .form_content_flex {
+    width: 343px;
+  }
+
+  .input {
+    width: 323px;
+  }
+
+  .form_textarea_flex {
+    width: 357px;
+  }
+
+  .textarea {
+    width: 330px;
+  }
+
+  .submit_img {
+    width: 343px;
+    aspect-ratio: 416 / 70;
+    height: auto;
   }
 
 }
@@ -2996,6 +3239,72 @@ header {
   .q_a_content.two_or_more.last {
     margin-bottom: 48px;
   }
+
+  /* ---------- contact --------------- */
+  .contact_section {
+    padding-top: 49px;
+    padding-bottom: 44px;
+  }
+
+  .h2_text_content.contact {
+    margin-bottom: 22px;
+  }
+
+  .contact_text {
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .input {
+    height: 38px;
+    width: 329px;
+    margin-bottom: 0px;
+    padding-left: 12px;
+  }
+
+  .form_content_flex {
+    padding-top: 46px;
+  }
+
+  .label_hissu_icon_content {
+    margin-bottom: 8px;
+  }
+
+  .form_textarea_flex {
+    padding-top: 0px;
+    width: 344px;
+    padding-bottom: 19px;
+    margin-bottom: 19px;
+
+  }
+
+  .textarea {
+    width: 321px;
+    height: 185px;
+  }
+
+  .label_nini_icon_content {
+    margin-bottom: 6px;
+  }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkbox_text_content_flex {
+    margin-left: -23px;
+  }
+
+  .submit_img {
+    display: none;
+  }
+
+  .sp_submit_img {
+    display: block;
+  }
+
+
 }
 
 @media screen and (max-width: 370px) {
@@ -3171,6 +3480,32 @@ header {
     font-size: 13px;
   }
 
+  /* ------------ contact ------------------- */
+  .contact_text {
+    font-size: 15px;
+  }
+
+  .form_content_flex {
+    width: 320px;
+  }
+
+  .input {
+    width: 305px;
+  }
+
+  .form_textarea_flex {
+    width: 324px;
+  }
+
+  .textarea {
+    width: 300px;
+  }
+
+  .sp_submit_img {
+    width: 300px;
+    aspect-ratio: 343 / 50;
+    height: auto;
+  }
 
 }
 

@@ -797,10 +797,10 @@
         <div class="question_content_flex">
           <p class="question_text">どれくらいで効果が見え始めますか？</p>
           <div class="plus_cross_icon_content">
-            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
-              width="20" height="20" alt="＋アイコン">
-            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
-              width="17" height="17" alt="×アイコン">
+            <img class="plus_icon" src="./img/pc/plus-icon.png"
+              srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x" width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png"
+              srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x" width="17" height="17" alt="×アイコン">
           </div>
         </div>
       </div>
@@ -822,10 +822,10 @@
         <div class="question_content_flex">
           <p class="question_text">うちの業界や規模でも本当に使えます<br class="sp">か？</p>
           <div class="plus_cross_icon_content">
-            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
-              width="20" height="20" alt="＋アイコン">
-            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
-              width="17" height="17" alt="×アイコン">
+            <img class="plus_icon" src="./img/pc/plus-icon.png"
+              srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x" width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png"
+              srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x" width="17" height="17" alt="×アイコン">
           </div>
         </div>
       </div>
@@ -847,10 +847,10 @@
         <div class="question_content_flex">
           <p class="question_text">AI導入って難しそうですが、社内リ<br class="sp">ソースは必要ですか？</p>
           <div class="plus_cross_icon_content">
-            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
-              width="20" height="20" alt="＋アイコン">
-            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
-              width="17" height="17" alt="×アイコン">
+            <img class="plus_icon" src="./img/pc/plus-icon.png"
+              srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x" width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png"
+              srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x" width="17" height="17" alt="×アイコン">
           </div>
         </div>
       </div>
@@ -872,10 +872,10 @@
         <div class="question_content_flex">
           <p class="question_text">初期費用や隠れた追加費用はあります<br class="sp">か？</p>
           <div class="plus_cross_icon_content">
-            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
-              width="20" height="20" alt="＋アイコン">
-            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
-              width="17" height="17" alt="×アイコン">
+            <img class="plus_icon" src="./img/pc/plus-icon.png"
+              srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x" width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png"
+              srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x" width="17" height="17" alt="×アイコン">
           </div>
         </div>
       </div>
@@ -897,10 +897,10 @@
         <div class="question_content_flex">
           <p class="question_text">効果が出なかった場合はどうなります<br class="sp">か？</p>
           <div class="plus_cross_icon_content">
-            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
-              width="20" height="20" alt="＋アイコン">
-            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
-              width="17" height="17" alt="×アイコン">
+            <img class="plus_icon" src="./img/pc/plus-icon.png"
+              srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x" width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png"
+              srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x" width="17" height="17" alt="×アイコン">
           </div>
         </div>
       </div>
@@ -922,12 +922,94 @@
           alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
       </a>
     </div>
+  </section>
+
+  <section class="contact_section">
+    <div class="h2_text_content contact">
+      <h2 class="h2_text">お問い合わせ</h2>
+    </div>
+
+    <div class="contact_text_content">
+      <p class="contact_text">サービスに関するご質問やご相談など、お気軽<br class="sp">にお問い合わせください。</p>
+    </div>
+
+    <form method="POST">
+      <div class="form_content_flex">
+        <div class="label_hissu_icon_content">
+          <label class="label_text" for="name">お名前</label>
+          <img class="hissu_icon" src="./img/pc/hissu.png" srcset="./img/pc/hissu@2x.png 2x, ./img/pc/hissu.png 1x"
+            width="46" height="26" alt="必須">
+        </div>
+        <div class="input_content">
+          <input id="name" class="input" name="name" type="text" placeholder="例：サンプル　太郎">
+          <span class="error_message">入力してください。</span>
+        </div>
+      </div>
+      <div class="form_content_flex two_or_more">
+        <div class="label_hissu_icon_content">
+          <label class="label_text" for="company">会社名</label>
+          <img class="hissu_icon" src="./img/pc/hissu.png" srcset="./img/pc/hissu@2x.png 2x, ./img/pc/hissu.png 1x"
+            width="46" height="26" alt="必須">
+        </div>
+        <div class="input_content">
+          <input id="company" class="input" name="company" type="text" placeholder="例：サンプル　株式会社">
+          <span class="error_message">入力してください。</span>
+        </div>
+      </div>
+      <div class="form_content_flex two_or_more">
+        <div class="label_hissu_icon_content">
+          <label class="label_text" for="email">メールアドレス</label>
+          <img class="hissu_icon" src="./img/pc/hissu.png" srcset="./img/pc/hissu@2x.png 2x, ./img/pc/hissu.png 1x"
+            width="46" height="26" alt="必須">
+        </div>
+        <div class="input_content">
+          <input id="email" class="input" name="email" type="text" placeholder="例/contact@example.com">
+          <span class="error_message">入力してください。</span>
+        </div>
+      </div>
+      <div class="form_content_flex two_or_more">
+        <div class="label_hissu_icon_content">
+          <label class="label_text" for="tel">電話番号</label>
+          <img class="hissu_icon" src="./img/pc/hissu.png" srcset="./img/pc/hissu@2x.png 2x, ./img/pc/hissu.png 1x"
+            width="46" height="26" alt="必須">
+        </div>
+        <div class="input_content">
+          <input id="tel" class="input" name="tel" type="tel" placeholder="例/09012345678">
+          <span class="error_message">入力してください。</span>
+        </div>
+      </div>
+      <div class="form_textarea_flex">
+        <div class="label_nini_icon_content">
+          <label class="label_text" for="contact_detail">お問い合わせ内容</label>
+          <img class="nini_icon" src="./img/pc/nini.png" srcset="./img/pc/nini@2x.png 2x, ./img/pc/nini.png 1x"
+            width="46" height="26" alt="任意">
+        </div>
+        <div class="input_content">
+          <textarea id="contact_detail" class="textarea" name="contact_detail" type="number"
+            placeholder="ご相談内容をご記入ください"></textarea>
+        </div>
+      </div>
+
+
+      <div class="checkbox_text_content_flex">
+        <input id="consent" class="checkbox" name="consent" type="checkbox">
+        <label for="consent" class="consent_text">プライバシーポリシーに同意する</label>
+      </div>
+
+      <button type="submit" class="submit_img_content">
+        <img class="submit_img" src="./img/pc/submit.png" srcset="./img/pc/submit@2x.png 2x, /img/pc/submit.png 1x"
+          width="416" height="70" alt="送信する">
+        <img class="sp_submit_img" src="./img/sp/sp-submit.png" srcset="./img/sp/sp-submit@2x.png 2x, /img/sp/sp-submit.png 1x"
+          width="343" height="50" alt="送信する">
+      </button>
+    </form>
 
   </section>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./js/hamburger-menu.js"></script>
   <script src="./js/select-menu.js"></script>
+  <script src="./js/form.js"></script>
   <script src="./js/q-a.js"></script>
 </body>
 
