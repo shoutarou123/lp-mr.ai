@@ -682,48 +682,6 @@
       </div>
     </div>
 
-    <div class="step_img_content_flex">
-      <div class="step_img_content">
-        <img class="step_img" src="./img/pc/step-1.png" srcset="./img/pc/step-1@2x.png 2x, ./img/pc/step-1.png 1x"
-          width="218" height="264" alt="STEP1 まずは無料相談 あなたの業務課題をヒアリングし、改善の方向性を整理します。">
-      </div>
-      <div class="step_img_content">
-        <img class="step_img" src="./img/pc/step-2.png" srcset="./img/pc/step-2@2x.png 2x, ./img/pc/step-2.png 1x"
-          width="218" height="264" alt="STEP2 課題とゴールを共有 目指す姿とAI導入の方針を決定。">
-      </div>
-      <div class="step_img_content">
-        <img class="step_img" src="./img/pc/step-3.png" srcset="./img/pc/step-3@2x.png 2x, ./img/pc/step-3.png 1x"
-          width="218" height="264" alt="STEP3 改善プラン設計 スケジュールと必要なリソースを明確化">
-      </div>
-      <div class="step_img_content">
-        <img class="step_img" src="./img/pc/step-4.png" srcset="./img/pc/step-4@2x.png 2x, ./img/pc/step-4.png 1x"
-          width="218" height="264" alt="STEP4 契約＆準備 ツール開設・導入準備をスピーディに実施。">
-      </div>
-      <div class="step_img_content">
-        <img class="step_img" src="./img/pc/step-5.png" srcset="./img/pc/step-5@2x.png 2x, ./img/pc/step-5.png 1x"
-          width="218" height="264" alt="STEP5 AI導入スタート! キックオフMTGで即改善に着手。効果測定も同時進行。">
-      </div>
-    </div>
-
-    <div class="eigyoubi_img_content_flex">
-      <div class="eigyoubi_img_content">
-        <img class="eigyoubi_img" src="./img/pc/eigyoubi-1.png"
-          srcset="./img/pc/eigyoubi-1@2x.png 2x, ./img/pc/eigyoubi-1.png 1x" width="650" height="50" alt="最短1営業日">
-      </div>
-      <div class="eigyoubi_img_content">
-        <img class="eigyoubi_img two" src="./img/pc/eigyoubi-2.png"
-          srcset="./img/pc/eigyoubi-2@2x.png 2x, ./img/pc/eigyoubi-2.png 1x" width="426" height="50" alt="最短2営業日">
-      </div>
-    </div>
-
-    <div class="service_cta_button_img_content">
-      <a href="">
-        <img class="service_cta_button_img" src="./img/pc/service-cta-button.png"
-          srcset="./img/pc/service-cta-button@2x.png 2x, ./img/pc/service-cta-button.png 1x"
-          alt="満足できなければ本格投資前に終了可能 リスクを抑えてお試しいただけます。 プロに無料相談する">
-      </a>
-    </div>
-    
     <!-- sp用 -->
     <div class="sp_step_content_flex">
       <div class="sp_eityoubi_img_container">
@@ -768,8 +726,51 @@
       </div>
     </div>
 
+    <div class="step_img_content_flex">
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-1.png" srcset="./img/pc/step-1@2x.png 2x, ./img/pc/step-1.png 1x"
+          width="218" height="264" alt="STEP1 まずは無料相談 あなたの業務課題をヒアリングし、改善の方向性を整理します。">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-2.png" srcset="./img/pc/step-2@2x.png 2x, ./img/pc/step-2.png 1x"
+          width="218" height="264" alt="STEP2 課題とゴールを共有 目指す姿とAI導入の方針を決定。">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-3.png" srcset="./img/pc/step-3@2x.png 2x, ./img/pc/step-3.png 1x"
+          width="218" height="264" alt="STEP3 改善プラン設計 スケジュールと必要なリソースを明確化">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-4.png" srcset="./img/pc/step-4@2x.png 2x, ./img/pc/step-4.png 1x"
+          width="218" height="264" alt="STEP4 契約＆準備 ツール開設・導入準備をスピーディに実施。">
+      </div>
+      <div class="step_img_content">
+        <img class="step_img" src="./img/pc/step-5.png" srcset="./img/pc/step-5@2x.png 2x, ./img/pc/step-5.png 1x"
+          width="218" height="264" alt="STEP5 AI導入スタート! キックオフMTGで即改善に着手。効果測定も同時進行。">
+      </div>
+    </div>
+
+    <div class="eigyoubi_img_content_flex">
+      <div class="eigyoubi_img_content">
+        <img class="eigyoubi_img" src="./img/pc/eigyoubi-1.png"
+          srcset="./img/pc/eigyoubi-1@2x.png 2x, ./img/pc/eigyoubi-1.png 1x" width="650" height="50" alt="最短1営業日">
+      </div>
+      <div class="eigyoubi_img_content">
+        <img class="eigyoubi_img two" src="./img/pc/eigyoubi-2.png"
+          srcset="./img/pc/eigyoubi-2@2x.png 2x, ./img/pc/eigyoubi-2.png 1x" width="426" height="50" alt="最短2営業日">
+      </div>
+    </div>
+
     <div class="otoiawase_text_content">
-      <p class="otoiawase_text">お問い合わせから<br class="sp"><strong class="text_red otoiawase">最短3日でサービス開始</strong><br class="sp"></span>が可能です</p>
+      <p class="otoiawase_text">お問い合わせから<br class="sp"><strong class="text_red otoiawase">最短3日でサービス開始</strong><br
+          class="sp"></span>が可能です</p>
+    </div>
+
+    <div class="service_cta_button_img_content">
+      <a href="">
+        <img class="service_cta_button_img" src="./img/pc/service-cta-button.png"
+          srcset="./img/pc/service-cta-button@2x.png 2x, ./img/pc/service-cta-button.png 1x"
+          alt="満足できなければ本格投資前に終了可能 リスクを抑えてお試しいただけます。 プロに無料相談する">
+      </a>
     </div>
 
     <!-- sp用 -->
@@ -780,13 +781,154 @@
           alt="満足できなければ本格投資前に終了可能 リスクを抑えてお試しいただけます。 プロに無料相談する">
       </a>
     </div>
+  </section>
 
+  <section class="qa_section">
+    <div class="h2_text_content qa">
+      <h2 class="h2_text">よくあるご質問</h2>
+    </div>
+
+    <div class="q_a_content">
+      <div class="q_content_flex">
+        <div class="q_icon_content">
+          <img src="./img/pc/q-icon.png" srcset="./img/pc/q-icon@2x.png 2x, ./img/pc/q-icon.png 1x" width="28"
+            height="28" alt="Qアイコン">
+        </div>
+        <div class="question_content_flex">
+          <p class="question_text">どれくらいで効果が見え始めますか？</p>
+          <div class="plus_cross_icon_content">
+            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
+              width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
+              width="17" height="17" alt="×アイコン">
+          </div>
+        </div>
+      </div>
+      <div class="answer_content_flex">
+        <div class="answer_icon_content">
+          <img src="./img/pc/a-icon.png" srcset="./img/pc/a-icon@2x.png 2x, ./img/pc/a-icon.png 1x" width="28"
+            height="28" alt="Aアイコン">
+        </div>
+        <p class="answer_text">質問に対する回答質問に対する回答質問に対する回答</p>
+      </div>
+    </div>
+
+    <div class="q_a_content two_or_more">
+      <div class="q_content_flex">
+        <div class="q_icon_content">
+          <img src="./img/pc/q-icon.png" srcset="./img/pc/q-icon@2x.png 2x, ./img/pc/q-icon.png 1x" width="28"
+            height="28" alt="Qアイコン">
+        </div>
+        <div class="question_content_flex">
+          <p class="question_text">うちの業界や規模でも本当に使えます<br class="sp">か？</p>
+          <div class="plus_cross_icon_content">
+            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
+              width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
+              width="17" height="17" alt="×アイコン">
+          </div>
+        </div>
+      </div>
+      <div class="answer_content_flex">
+        <div class="answer_icon_content">
+          <img src="./img/pc/a-icon.png" srcset="./img/pc/a-icon@2x.png 2x, ./img/pc/a-icon.png 1x" width="28"
+            height="28" alt="Aアイコン">
+        </div>
+        <p class="answer_text">質問に対する回答質問に対する回答質問に対する回答</p>
+      </div>
+    </div>
+
+    <div class="q_a_content two_or_more">
+      <div class="q_content_flex">
+        <div class="q_icon_content">
+          <img src="./img/pc/q-icon.png" srcset="./img/pc/q-icon@2x.png 2x, ./img/pc/q-icon.png 1x" width="28"
+            height="28" alt="Qアイコン">
+        </div>
+        <div class="question_content_flex">
+          <p class="question_text">AI導入って難しそうですが、社内リ<br class="sp">ソースは必要ですか？</p>
+          <div class="plus_cross_icon_content">
+            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
+              width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
+              width="17" height="17" alt="×アイコン">
+          </div>
+        </div>
+      </div>
+      <div class="answer_content_flex">
+        <div class="answer_icon_content">
+          <img src="./img/pc/a-icon.png" srcset="./img/pc/a-icon@2x.png 2x, ./img/pc/a-icon.png 1x" width="28"
+            height="28" alt="Aアイコン">
+        </div>
+        <p class="answer_text">特別な知識や専任担当者は不要です。弊社がヒア<br class="sp">リングから設定まで伴走します。</p>
+      </div>
+    </div>
+
+    <div class="q_a_content two_or_more">
+      <div class="q_content_flex">
+        <div class="q_icon_content">
+          <img src="./img/pc/q-icon.png" srcset="./img/pc/q-icon@2x.png 2x, ./img/pc/q-icon.png 1x" width="28"
+            height="28" alt="Qアイコン">
+        </div>
+        <div class="question_content_flex">
+          <p class="question_text">初期費用や隠れた追加費用はあります<br class="sp">か？</p>
+          <div class="plus_cross_icon_content">
+            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
+              width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
+              width="17" height="17" alt="×アイコン">
+          </div>
+        </div>
+      </div>
+      <div class="answer_content_flex">
+        <div class="answer_icon_content">
+          <img src="./img/pc/a-icon.png" srcset="./img/pc/a-icon@2x.png 2x, ./img/pc/a-icon.png 1x" width="28"
+            height="28" alt="Aアイコン">
+        </div>
+        <p class="answer_text">質問に対する回答質問に対する回答質問に対する回答</p>
+      </div>
+    </div>
+
+    <div class="q_a_content two_or_more last">
+      <div class="q_content_flex">
+        <div class="q_icon_content">
+          <img src="./img/pc/q-icon.png" srcset="./img/pc/q-icon@2x.png 2x, ./img/pc/q-icon.png 1x" width="28"
+            height="28" alt="Qアイコン">
+        </div>
+        <div class="question_content_flex">
+          <p class="question_text">効果が出なかった場合はどうなります<br class="sp">か？</p>
+          <div class="plus_cross_icon_content">
+            <img class="plus_icon" src="./img/pc/plus-icon.png" srcset="./img/pc/plus-icon@2x.png 2x, ./img/pc/plus-icon.png 1x"
+              width="20" height="20" alt="＋アイコン">
+            <img class="cross_icon" src="./img/pc/cross-icon.png" srcset="./img/pc/cross-icon@2x.png 2x, ./img/pc/cross-icon.png 1x"
+              width="17" height="17" alt="×アイコン">
+          </div>
+        </div>
+      </div>
+      <div class="answer_content_flex">
+        <div class="answer_icon_content">
+          <img src="./img/pc/a-icon.png" srcset="./img/pc/a-icon@2x.png 2x, ./img/pc/a-icon.png 1x" width="28"
+            height="28" alt="Aアイコン">
+        </div>
+        <p class="answer_text">初期2週間の成果報告にご満足いただけなければ、<br class="sp">本格投資前に終了できます。</p>
+      </div>
+    </div>
+
+    <div class="cta_button_content">
+      <a href="">
+        <img src="./img/pc/cta-button.png" srcset="./img/pc/cta-button@2x.png 2x ./img/pc/cta-button.png 1x"
+          width="1100" height="300" alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
+        <img class="sp_cta_button_img" src="./img/sp/sp-cta-button.png"
+          srcset="./img/sp/sp-cta-button@2x.png 2x, ./img/sp/sp-cta-button.png 1x"
+          alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
+      </a>
+    </div>
 
   </section>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./js/hamburger-menu.js"></script>
   <script src="./js/select-menu.js"></script>
+  <script src="./js/q-a.js"></script>
 </body>
 
 </html>
