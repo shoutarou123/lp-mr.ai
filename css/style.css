@@ -33,7 +33,7 @@ li {
   position: fixed;
   top: 95px;
   z-index: 9999;
-  background-color: #DB0000;
+  background-color: #db0000;
   width: 100%;
 }
 
@@ -42,7 +42,7 @@ li {
 }
 
 .navigation_link {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
   display: flex;
@@ -50,7 +50,7 @@ li {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 5px;
-  border-bottom: solid 1px #FFF;
+  border-bottom: solid 1px #fff;
 }
 
 .navigation_link img {
@@ -109,7 +109,7 @@ header {
 .header_menu_ul a {
   font-size: 16px;
   font-weight: bold;
-  color: #0D0D0D;
+  color: #0d0d0d;
 }
 
 .header_menu_ul li:first-child {
@@ -138,7 +138,6 @@ header {
 .header_menu li a img {
   display: block;
 }
-
 
 /* ************* fv ******************** */
 
@@ -220,7 +219,7 @@ header {
 
 /* ************ worries ****************** */
 .worries {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-top: 57px;
   padding-bottom: 48px;
 }
@@ -239,13 +238,12 @@ header {
 .dots,
 .red_text {
   letter-spacing: 1.5px;
-  color: #DB0000;
+  color: #db0000;
   font-size: 42px;
-
 }
 
 .worries_top_text_content h2 .dots:nth-of-type(2) {
-  background-image: radial-gradient(circle at center, #DB0000 20%, transparent 20%);
+  background-image: radial-gradient(circle at center, #db0000 20%, transparent 20%);
   /* 点の色とサイズ調整 */
   background-position: 0px 1px;
   /* 点の位置 */
@@ -258,7 +256,7 @@ header {
 }
 
 .worries_top_text_content h2 .dots:nth-of-type(4) {
-  background-image: radial-gradient(circle at center, #DB0000 20%, transparent 20%);
+  background-image: radial-gradient(circle at center, #db0000 20%, transparent 20%);
   /* 点の色とサイズ調整 */
   background-position: 1px 1px;
   /* 点の位置 */
@@ -271,7 +269,7 @@ header {
 }
 
 .worries_top_text_content h2 .dots:nth-of-type(5) {
-  background-image: radial-gradient(circle at center, #DB0000 20%, transparent 20%);
+  background-image: radial-gradient(circle at center, #db0000 20%, transparent 20%);
   /* 点の色とサイズ調整 */
   background-position: 3px 1px;
   /* 点の位置 */
@@ -357,7 +355,7 @@ header {
 }
 
 .fukidashi_text {
-  color: #FFF;
+  color: #fff;
   font-family: "Zen Maru Gothic", sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -415,7 +413,7 @@ header {
 }
 
 .text_red {
-  color: #DB0000;
+  color: #db0000;
 }
 
 .sub_text_content {
@@ -446,7 +444,7 @@ header {
 
 /* -------------- tuyomi ---------------- */
 .tuyomi_section {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   z-index: 1;
   padding-bottom: 56px;
 }
@@ -618,7 +616,6 @@ header {
 .himitu_img_content.bottom img {
   margin-top: 36px;
   margin-left: 59px;
-
 }
 
 .cta_button_content {
@@ -636,7 +633,7 @@ header {
 
 /* --------------- kaizen --------------------*/
 .kaizen_section {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-top: 53px;
   padding-bottom: 60px;
 }
@@ -659,7 +656,7 @@ header {
 }
 
 .select_text_content {
-  border-bottom: solid 1px #CBCBCB;
+  border-bottom: solid 1px #cbcbcb;
   width: 355px;
   display: flex;
   padding-bottom: 24px;
@@ -682,7 +679,7 @@ header {
 .vertical_red_line {
   width: 4px;
   height: 35px;
-  border-left: solid 2px #DB0000;
+  border-left: solid 2px #db0000;
   margin-right: 12px;
 }
 
@@ -696,7 +693,7 @@ header {
 
 .select_text_content.active .select_text,
 .select_text_content.active .arrow {
-  color: #DB0000;
+  color: #db0000;
 }
 
 .select_text {
@@ -706,7 +703,7 @@ header {
 
 .select_text,
 .arrow {
-  color: #B5B5B5;
+  color: #b5b5b5;
 }
 
 .arrow {
@@ -717,7 +714,7 @@ header {
 
 .display_after_select {
   width: 690px;
-  background-color: #FFF;
+  background-color: #fff;
   padding-top: 29px;
   padding-bottom: 33px;
   padding-left: 32px;
@@ -726,7 +723,7 @@ header {
 
 .midashi_content {
   width: 656px;
-  border-bottom: solid 4px #F0F0F0;
+  border-bottom: solid 4px #f0f0f0;
   padding-bottom: 13px;
   margin-bottom: 20px;
 }
@@ -746,7 +743,7 @@ header {
 }
 
 .red_line_square {
-  border: solid 1px #DB0000;
+  border: solid 1px #db0000;
   border-radius: 10px;
   width: 628px;
   padding-top: 24px;
@@ -765,13 +762,13 @@ header {
 }
 
 .red_line_square_text {
-  color: #DB0000;
+  color: #db0000;
   font-size: 20px;
   font-weight: bold;
 }
 
 .bg_square {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding-top: 16px;
   padding-left: 16px;
   padding-bottom: 11px;
@@ -786,7 +783,7 @@ header {
 }
 
 .before_after_text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #989898;
@@ -812,19 +809,18 @@ header {
 }
 
 .bg_square.red {
-  background-color: #FEF3F3;
+  background-color: #fef3f3;
   margin-bottom: 18px;
   padding-bottom: 2px;
-
 }
 
 .before_after_text.red,
 .before_after_jp_text_heading.red {
-  color: #DB0000;
+  color: #db0000;
 }
 
 .vartical_line.red {
-  border-right: solid 1px #DB0000;
+  border-right: solid 1px #db0000;
 }
 
 .display_after_select_bottom_text {
@@ -855,7 +851,6 @@ header {
   justify-content: center;
   gap: 6px;
   margin-bottom: 9px;
-
 }
 
 .contact_button_content {
@@ -869,7 +864,7 @@ header {
 
 /*  -------------- service ------------------- */
 .service_section {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-top: 60px;
   padding-bottom: 62px;
 }
@@ -882,7 +877,6 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 44px;
-
 }
 
 .catchcopy_text {
@@ -924,7 +918,6 @@ header {
   font-size: 28px;
   font-weight: bold;
   letter-spacing: -0.9px;
-
 }
 
 .text_red.otoiawase {
@@ -952,8 +945,8 @@ header {
 }
 
 .q_a_content {
-  border-top: solid 1px #CBCBCB;
-  border-bottom: solid 1px #CBCBCB;
+  border-top: solid 1px #cbcbcb;
+  border-bottom: solid 1px #cbcbcb;
   width: 800px;
   margin: 0 auto;
   padding-top: 22px;
@@ -985,7 +978,6 @@ header {
 .cross_icon:hover {
   cursor: pointer;
 }
-
 
 .question_text {
   font-size: 20px;
@@ -1024,7 +1016,7 @@ header {
 
 /* ---------------- contact ------------------- */
 .contact_section {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1052,10 +1044,10 @@ form {
 
 .form_content_flex {
   width: 800px;
-  border-top: solid 1px #CBCBCB;
-  border-bottom: solid 1px #CBCBCB;
+  border-top: solid 1px #cbcbcb;
+  border-bottom: solid 1px #cbcbcb;
   padding-top: 28px;
-  padding-bottom: 4px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1080,13 +1072,13 @@ form {
 .input_content {
   display: flex;
   flex-direction: column;
-
+  position: relative;
 }
 
 .input {
-  border: solid 1px #CCCCCC;
+  border: solid 1px #cccccc;
   border-radius: 4px;
-  background-color: #FFF;
+  background-color: #fff;
   width: 530px;
   height: 50px;
   padding-left: 20px;
@@ -1095,15 +1087,15 @@ form {
 
 input::placeholder,
 textarea::placeholder {
-  color: #A5A5A5;
+  color: #a5a5a5;
   font-size: 18px;
   font-weight: 400;
 }
 
 .textarea {
-  border: solid 1px #CCCCCC;
+  border: solid 1px #cccccc;
   border-radius: 4px;
-  background-color: #FFF;
+  background-color: #fff;
   padding-left: 20px;
   padding-top: 13px;
   width: 530px;
@@ -1120,7 +1112,7 @@ textarea::placeholder {
   width: 800px;
   display: flex;
   justify-content: space-between;
-  border-bottom: solid 1px #CBCBCB;
+  border-bottom: solid 1px #cbcbcb;
   padding-bottom: 29px;
   margin-bottom: 52px;
 }
@@ -1134,11 +1126,11 @@ textarea::placeholder {
 .checkbox {
   width: 24px;
   height: 24px;
-  border: solid 1px #CCCC;
+  border: solid 1px #cccc;
   border-radius: 4px;
 }
 
-.consent_text {
+.privacy_text {
   font-size: 16px;
   font-weight: bold;
 }
@@ -1152,12 +1144,12 @@ textarea::placeholder {
   opacity: 0.7;
 }
 
-.error_message {
-  color: #D94141;
+.input_content .error_message {
+  position: absolute;
+  top: 53px;
+  color: #d94141;
   font-size: 12px;
   font-weight: 500;
-  position: relative;
-  top: -2px;
 }
 
 .checkbox_text_content_flex {
@@ -1165,12 +1157,21 @@ textarea::placeholder {
   gap: 12px;
 }
 
-.error_message {
-  visibility: hidden;
+.privacy_error_message {
+  display: block;
+  color: #d94141;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: -21px;
+  margin-bottom: 3px;
 }
 
-.input_error {
-  border: solid 1px #D94141;
+.form-group__input--error {
+  border: solid 1px #d94141 !important;
+}
+
+.privacy_link {
+  color: #0d0d0d;
 }
 
 /* --------- footer ------------ */
@@ -1197,7 +1198,7 @@ textarea::placeholder {
 }
 
 .company_content a {
-  color: #0D0D0D;
+  color: #0d0d0d;
   text-decoration: underline;
 }
 
@@ -1389,9 +1390,7 @@ textarea::placeholder {
   .himitu_img_content.bottom img {
     margin-left: 0px;
   }
-
 }
-
 
 @media screen and (max-width: 1400px) {
   .pc_fukidashi_img {
@@ -1563,7 +1562,6 @@ textarea::placeholder {
   .up_arrow_img {
     right: 10%;
   }
-
 }
 
 @media screen and (max-width: 1120px) {
@@ -1651,7 +1649,6 @@ textarea::placeholder {
   }
 }
 
-
 /* ********** ブレイクポイント ***************** */
 @media screen and (max-width: 1000px) {
   .fv {
@@ -1723,7 +1720,6 @@ textarea::placeholder {
   }
 
   /* ------------ cat --------------- */
-
 
   .cta_content {
     padding-top: 0px;
@@ -1920,7 +1916,6 @@ textarea::placeholder {
     margin-top: 50px;
   }
 
-
   .himitu_content_flex {
     flex-flow: column;
     align-items: center;
@@ -1988,7 +1983,7 @@ textarea::placeholder {
   }
 
   .select_text_content {
-    background-color: #FFF;
+    background-color: #fff;
     padding-bottom: 0px;
     width: 500px;
     height: 58px;
@@ -2235,7 +2230,6 @@ textarea::placeholder {
     font-size: 15px;
   }
 
-
   .pc_icon_text {
     width: 120px;
   }
@@ -2436,7 +2430,6 @@ textarea::placeholder {
   .footer_content {
     width: 410px;
   }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -2447,7 +2440,6 @@ textarea::placeholder {
   .logo_content {
     margin-left: 16px;
   }
-
 
   .hamburger_close,
   .hamburger_open {
@@ -2584,7 +2576,6 @@ textarea::placeholder {
   .text_gyoumu {
     font-size: 22px;
     top: 4px;
-
   }
 
   .text_no.himitu {
@@ -2790,7 +2781,7 @@ textarea::placeholder {
     font-size: 16px;
   }
 
-  .consent_text {
+  .privacy_text {
     font-size: 14px;
   }
 
@@ -2826,11 +2817,9 @@ textarea::placeholder {
   .company_text {
     font-size: 12px;
   }
-
 }
 
 @media screen and (max-width: 375px) {
-
   .navigation {
     top: 66px;
   }
@@ -3053,7 +3042,7 @@ textarea::placeholder {
 
   .h4_content h4 {
     line-height: 30px;
-    letter-spacing: -2.0px;
+    letter-spacing: -2px;
   }
 
   .tuyomi_img_content {
@@ -3115,7 +3104,7 @@ textarea::placeholder {
 
   .himitu_text_content p {
     line-height: 24px;
-    letter-spacing: -0.20px;
+    letter-spacing: -0.2px;
     position: relative;
     left: -3px;
   }
@@ -3235,7 +3224,6 @@ textarea::placeholder {
   .sp_step_content_flex {
     justify-content: start;
     margin-bottom: 10px;
-
   }
 
   .sp_eityoubi_img_container {
@@ -3348,7 +3336,6 @@ textarea::placeholder {
     width: 344px;
     padding-bottom: 19px;
     margin-bottom: 19px;
-
   }
 
   .textarea {
@@ -3386,7 +3373,6 @@ textarea::placeholder {
   .taizii_img_content {
     margin-bottom: 13px;
   }
-
 }
 
 @media screen and (max-width: 370px) {
@@ -3593,7 +3579,6 @@ textarea::placeholder {
   .footer_content {
     width: 327px;
   }
-
 }
 
 @media screen and (max-width: 360px) {

@@ -273,7 +273,9 @@
 
     <div class="himitu_content_flex">
       <div class="himitu_img_content top">
-        <img src="./img/pc/himitu-img.png" srcset="./img/pc/himitu-img@2x.png 2x ./img/pc/himitu-img.png 1x" width="468"
+        <img src="./img/pc/himitu-img.png"
+         srcset="./img/pc/himitu-img@2x.png 2x, ./img/pc/himitu-img.png 1x"
+         width="468"
           height="320" alt="504.2時間/月の業務効率化を実現 正社員3人分の稼働時間が浮く計算です">
         <img class="sp_himitu_img" src="./img/sp/sp-himitu-img.png"
           srcset="./img/sp/sp-himitu-img@2x.png 2x, ./img/sp/sp-himitu-img 1x" width="343" height="235"
@@ -299,12 +301,12 @@
       </div>
       <div class="himitu_img_content bottom">
         <img class="sp_daihyou_img" src="./img/pc/daihyou.png"
-          srcset="./img/pc/daihyou@2x.png 2x ./img/pc/daihyou.png 1x" width="468" height="320" alt="株式会社taiziii代表加藤">
+          srcset="./img/pc/daihyou@2x.png 2x, ./img/pc/daihyou.png 1x" width="468" height="320" alt="株式会社taiziii代表加藤">
       </div>
     </div>
     <div class="cta_button_content">
       <a href="">
-        <img src="./img/pc/cta-button.png" srcset="./img/pc/cta-button@2x.png 2x ./img/pc/cta-button.png 1x"
+        <img src="./img/pc/cta-button.png" srcset="./img/pc/cta-button@2x.png 2x, ./img/pc/cta-button.png 1x"
           width="1100" height="300" alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
         <img class="sp_cta_button_img" src="./img/sp/sp-cta-button.png"
           srcset="./img/sp/sp-cta-button@2x.png 2x, ./img/sp/sp-cta-button.png 1x"
@@ -915,7 +917,7 @@
 
     <div class="cta_button_content">
       <a href="">
-        <img src="./img/pc/cta-button.png" srcset="./img/pc/cta-button@2x.png 2x ./img/pc/cta-button.png 1x"
+        <img src="./img/pc/cta-button.png" srcset="./img/pc/cta-button@2x.png 2x, ./img/pc/cta-button.png 1x"
           width="1100" height="300" alt="毎月5社限定で無料相談 お得なトライアルプラン※初回のみ適用 改善内容にご満足いただけない場合、本格投資の前に終了可能です">
         <img class="sp_cta_button_img" src="./img/sp/sp-cta-button.png"
           srcset="./img/sp/sp-cta-button@2x.png 2x, ./img/sp/sp-cta-button.png 1x"
@@ -933,7 +935,7 @@
       <p class="contact_text">サービスに関するご質問やご相談など、お気軽<br class="sp">にお問い合わせください。</p>
     </div>
 
-    <form method="POST">
+    <form method="POST" id="contactForm" action="https://taiziii.com/contact/thanks/">
       <div class="form_content_flex">
         <div class="label_hissu_icon_content">
           <label class="label_text" for="name">お名前</label>
@@ -941,10 +943,13 @@
             width="46" height="26" alt="必須">
         </div>
         <div class="input_content">
-          <input id="name" class="input" name="name" type="text" placeholder="例：サンプル　太郎">
-          <span class="error_message">入力してください。</span>
+          <input id="name"
+            class="input <?php echo isset($errors['name']) ? 'form-group__input--error' : ''; ?>"
+            name="name" type="text" placeholder="例：サンプル　太郎"
+            value="<?php echo htmlspecialchars($formData['name'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
         </div>
       </div>
+
       <div class="form_content_flex two_or_more">
         <div class="label_hissu_icon_content">
           <label class="label_text" for="company">会社名</label>
@@ -952,10 +957,13 @@
             width="46" height="26" alt="必須">
         </div>
         <div class="input_content">
-          <input id="company" class="input" name="company" type="text" placeholder="例：サンプル　株式会社">
-          <span class="error_message">入力してください。</span>
+          <input id="company"
+          class="input <?php echo isset($errors['company']) ? 'form-group__input--error' : ''; ?>"
+          name="company" type="text" placeholder="例：サンプル　株式会社"
+          value="<?php echo htmlspecialchars($formData['company'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
         </div>
       </div>
+
       <div class="form_content_flex two_or_more">
         <div class="label_hissu_icon_content">
           <label class="label_text" for="email">メールアドレス</label>
@@ -963,21 +971,27 @@
             width="46" height="26" alt="必須">
         </div>
         <div class="input_content">
-          <input id="email" class="input" name="email" type="text" placeholder="例/contact@example.com">
-          <span class="error_message">入力してください。</span>
+          <input id="email"
+          class="input <?php echo isset($errors['email']) ? 'form-group__input--error' : ''; ?>"
+          name="email" type="text" placeholder="例/contact@example.com"
+          value="<?php echo htmlspecialchars($formData['email'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
         </div>
       </div>
+
       <div class="form_content_flex two_or_more">
         <div class="label_hissu_icon_content">
-          <label class="label_text" for="tel">電話番号</label>
+          <label class="label_text" for="phone">電話番号</label>
           <img class="hissu_icon" src="./img/pc/hissu.png" srcset="./img/pc/hissu@2x.png 2x, ./img/pc/hissu.png 1x"
             width="46" height="26" alt="必須">
         </div>
         <div class="input_content">
-          <input id="tel" class="input" name="tel" type="tel" placeholder="例/09012345678">
-          <span class="error_message">入力してください。</span>
+          <input id="phone"
+          class="input <?php echo isset($error['phone']) ? 'form-group__input--error' : ''; ?>"
+          name="phone" type="tel" placeholder="例/09012345678"
+          value="<?php echo htmlspecialchars($formData['phone'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
         </div>
       </div>
+
       <div class="form_textarea_flex">
         <div class="label_nini_icon_content">
           <label class="label_text" for="contact_detail">お問い合わせ内容</label>
@@ -992,15 +1006,22 @@
 
 
       <div class="checkbox_text_content_flex">
-        <input id="consent" class="checkbox" name="consent" type="checkbox">
-        <label for="consent" class="consent_text">プライバシーポリシーに同意する</label>
+        <input type="checkbox" id="privacy" name="privacy"
+          class="checkbox <?php echo isset($error['privacy']) ? 'checked' : ''; ?>" <?php echo !empty($formData['privacy']) ? 'checked' : ''; ?>>
+        <label for="privacy" class="privacy_text">
+          <a class="privacy_link" href="https://taiziii.com/privacy/" target="_blank" rel="noopener" class="privacy_link">
+            プライバシーポリシーに同意する
+          </a>
+        </label>
       </div>
 
-      <div type="submit" class="submit_img_content">
+      <div class="submit_img_content">
+        <button type="submit" style="background:none;border:none;">
         <img class="submit_img" src="./img/pc/submit.png" srcset="./img/pc/submit@2x.png 2x, /img/pc/submit.png 1x"
           width="416" height="70" alt="送信する">
         <img class="sp_submit_img" src="./img/sp/sp-submit.png"
           srcset="./img/sp/sp-submit@2x.png 2x, /img/sp/sp-submit.png 1x" width="343" height="50" alt="送信する">
+        </button>
       </div>
     </form>
   </section>
@@ -1029,9 +1050,9 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./js/hamburger-menu.js"></script>
   <script src="./js/select-menu.js"></script>
-  <script src="./js/form.js"></script>
   <script src="./js/q-a.js"></script>
   <script src="./js/up-arrow.js"></script>
+  <script src="./js/form-validation.js"></script>
 </body>
 
 </html>
